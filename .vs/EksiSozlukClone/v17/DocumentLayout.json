@@ -1,0 +1,452 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github\\EksiSozlukClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\userentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\userentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\emailconfirmationentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\emailconfirmationentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\baseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\baseentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entrycomment\\entrycommentvoteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entrycomment\\entrycommentvoteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entrycomment\\entrycommentfavoriteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entrycomment\\entrycommentfavoriteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entrycomment\\entrycommententityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entrycomment\\entrycommententityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\entrycomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\entrycomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entry\\entryvoteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entry\\entryvoteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entry\\entryfavoriteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entry\\entryfavoriteentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|d:\\github\\eksisozlukclone\\src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entry\\entryentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}|src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj|solutionrelative:src\\api\\infastructure\\eksisozlukclone.infastructure.persistence\\entityconfigurations\\entry\\entryentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\entrycommentvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\entrycommentvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\entrycommentfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\entrycommentfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\entryfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\entryfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\entryvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\entryvote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\emailconfirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\emailconfirmation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF757BE-9AE6-4E00-95FB-FC829599A147}|src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailConfirmationEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EmailConfirmationEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EmailConfirmationEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EmailConfirmationEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EmailConfirmationEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:06:14.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\UserEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\UserEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\UserEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\UserEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:06:48.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntryCommentVoteEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentVoteEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentVoteEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentVoteEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentVoteEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:05:20.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\BaseEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\BaseEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\BaseEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\BaseEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:05:48.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntryCommentFavoriteEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentFavoriteEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentFavoriteEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentFavoriteEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentFavoriteEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:04:45.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntryCommentEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\EntryComment\\EntryCommentEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:04:15.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\User.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\User.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:26:56.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntryComment.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryComment.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryComment.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryComment.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:13:57.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EntryVoteEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryVoteEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryVoteEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryVoteEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryVoteEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:03:50.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntryFavoriteEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryFavoriteEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryFavoriteEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryFavoriteEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryFavoriteEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:03:00.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntryEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryEntityConfiguration.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryEntityConfiguration.cs",
+              "RelativeToolTip": "src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EntityConfigurations\\Entry\\EntryEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:02:31.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EntryCommentVote.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentVote.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentVote.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentVote.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentVote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:45:13.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EntryCommentFavorite.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentFavorite.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentFavorite.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentFavorite.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryCommentFavorite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:43:26.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EntryFavorite.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryFavorite.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryFavorite.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryFavorite.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryFavorite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:41:33.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EntryVote.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryVote.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryVote.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryVote.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EntryVote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:31:33.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entry.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\Entry.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\Entry.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\Entry.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\Entry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:13:12.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailConfirmation.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EmailConfirmation.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EmailConfirmation.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EmailConfirmation.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\EmailConfirmation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:12:24.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\BaseEntity.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:11:04.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

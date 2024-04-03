@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "EksiSozlukClone.Projections.FavoriteService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
