@@ -16,7 +16,7 @@ public class EntryCommentVoteEntityConfiguration : BaseEntityConfiguration<Entry
     {
         base.Configure(builder);
 
-        builder.ToTable("entrycommentvote", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("entrycommentvote", Context.EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
 
         builder.HasOne(x => x.EntryComment)
             .WithMany(x => x.EntryCommentVotes)

@@ -16,12 +16,11 @@ public class EntryVoteEntityConfiguration : BaseEntityConfiguration<EntryVote>
     {
         base.Configure(builder);
 
-        builder.ToTable("entryvote", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("entryvote", Context.EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
 
         builder.HasOne(x => x.Entry)
             .WithMany(x => x.EntryVotes)
             .HasForeignKey(x => x.EntryId);
     }
 }
-{
-}
+

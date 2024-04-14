@@ -16,6 +16,6 @@ public class UserEntityConfiguration : BaseEntityConfiguration<User>
     {
         base.Configure(builder);
 
-        builder.ToTable("user", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("user", EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
     }
 }

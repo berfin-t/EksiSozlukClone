@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEkxmYIQQYFNRt6FLXZw9mhOXtIPWUf//08uSvXDqhY8HsZkt7xDFtTqRo6r3svuB+VY63smBwEHoJRaRSvO6Q==",
+  "dgSpecHash": "vu5xVn5juMUhn3wLFky/MUF/r0/BC891EbSVSINgTrzr/XV9XSNohTbe+1ykV1BFGYz2lqeDAU3Ak+6nJGwa5g==",
   "success": true,
-  "projectFilePath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.USerService.csproj",
+  "projectFilePath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

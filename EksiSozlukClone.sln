@@ -21,23 +21,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{0CF7D2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWeb", "BlazorWeb", "{C2CF1021-1372-4989-BE7A-7BA68A665C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Api.Application", "src\Api\Core\EksiSozlukClone.Api.Application\EksiSozlukClone.Api.Application.csproj", "{B7155018-A7EB-43D0-8E50-E6EA119518A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Api.Application", "src\Api\Core\EksiSozlukClone.Api.Application\EksiSozlukClone.Api.Application.csproj", "{B7155018-A7EB-43D0-8E50-E6EA119518A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Api.Domain", "src\Api\Core\EksiSozlukClone.Api.Domain\EksiSozlukClone.Api.Domain.csproj", "{EFF757BE-9AE6-4E00-95FB-FC829599A147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Api.Domain", "src\Api\Core\EksiSozlukClone.Api.Domain\EksiSozlukClone.Api.Domain.csproj", "{EFF757BE-9AE6-4E00-95FB-FC829599A147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Infastructure.Persistence", "src\Api\Infastructure\EksiSozlukClone.Infastructure.Persistence\EksiSozlukClone.Infastructure.Persistence.csproj", "{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Infastructure.Persistence", "src\Api\Infastructure\EksiSozlukClone.Infastructure.Persistence\EksiSozlukClone.Infastructure.Persistence.csproj", "{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Api.WebApi", "src\Api\WebApi\EksiSozlukClone.Api.WebApi\EksiSozlukClone.Api.WebApi.csproj", "{5E95D2A1-93CF-4DFC-8355-6452AF1652C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.WebApp", "src\Clients\BlazorWeb\EksiSozlukClone.WebApp\EksiSozlukClone.WebApp.csproj", "{520F8A4E-48FD-4764-98B9-5C144420A4EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.WebApp", "src\Clients\BlazorWeb\EksiSozlukClone.WebApp\EksiSozlukClone.WebApp.csproj", "{520F8A4E-48FD-4764-98B9-5C144420A4EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Common", "src\Common\EksiSozlukClone.Common\EksiSozlukClone.Common.csproj", "{F0953803-E5A7-4251-BA22-1EC7394B2E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Common", "src\Common\EksiSozlukClone.Common\EksiSozlukClone.Common.csproj", "{F0953803-E5A7-4251-BA22-1EC7394B2E30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Projections.FavoriteService", "src\Projections\EksiSozlukClone.Projections.FavoriteService\EksiSozlukClone.Projections.FavoriteService.csproj", "{DFD857E0-414E-4DF2-B7D9-D99270909D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Projections.FavoriteService", "src\Projections\EksiSozlukClone.Projections.FavoriteService\EksiSozlukClone.Projections.FavoriteService.csproj", "{DFD857E0-414E-4DF2-B7D9-D99270909D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Projections.UserService", "src\Projections\EksiSozlukClone.Projections.USerService\EksiSozlukClone.Projections.UserService.csproj", "{7753B6EC-1B69-4E96-B646-BB599642BC3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Projections.USerService", "src\Projections\EksiSozlukClone.Projections.USerService\EksiSozlukClone.Projections.USerService.csproj", "{7753B6EC-1B69-4E96-B646-BB599642BC3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Projections.VoteService", "src\Projections\EksiSozlukClone.Projections.VoteService\EksiSozlukClone.Projections.VoteService.csproj", "{09CDBB71-D023-4C6B-93D0-36C195377888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Projections.VoteService", "src\Projections\EksiSozlukClone.Projections.VoteService\EksiSozlukClone.Projections.VoteService.csproj", "{09CDBB71-D023-4C6B-93D0-36C195377888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Api.WebApi", "src\Api\WebApi\EksiSozlukClone.Api.WebApi\EksiSozlukClone.Api.WebApi.csproj", "{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,6 @@ Global
 		{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E95D2A1-93CF-4DFC-8355-6452AF1652C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E95D2A1-93CF-4DFC-8355-6452AF1652C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E95D2A1-93CF-4DFC-8355-6452AF1652C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E95D2A1-93CF-4DFC-8355-6452AF1652C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{520F8A4E-48FD-4764-98B9-5C144420A4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{520F8A4E-48FD-4764-98B9-5C144420A4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{520F8A4E-48FD-4764-98B9-5C144420A4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +77,10 @@ Global
 		{09CDBB71-D023-4C6B-93D0-36C195377888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09CDBB71-D023-4C6B-93D0-36C195377888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09CDBB71-D023-4C6B-93D0-36C195377888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,12 +97,12 @@ Global
 		{B7155018-A7EB-43D0-8E50-E6EA119518A7} = {F30A727A-66DD-42B0-9E70-625CFA221AAD}
 		{EFF757BE-9AE6-4E00-95FB-FC829599A147} = {F30A727A-66DD-42B0-9E70-625CFA221AAD}
 		{88B895D5-FECD-4C00-BC0A-C9B29D0F7D48} = {4F347E6A-2D19-4C10-A522-E4FED61CDDC1}
-		{5E95D2A1-93CF-4DFC-8355-6452AF1652C3} = {0CF7D2ED-0888-4293-9CD5-DA0128458656}
 		{520F8A4E-48FD-4764-98B9-5C144420A4EA} = {C2CF1021-1372-4989-BE7A-7BA68A665C8F}
 		{F0953803-E5A7-4251-BA22-1EC7394B2E30} = {D00215AF-CE21-44A9-8B90-079DB08311C4}
 		{DFD857E0-414E-4DF2-B7D9-D99270909D92} = {3284E00C-F22A-428F-BEDA-41D3A2F6F941}
 		{7753B6EC-1B69-4E96-B646-BB599642BC3D} = {3284E00C-F22A-428F-BEDA-41D3A2F6F941}
 		{09CDBB71-D023-4C6B-93D0-36C195377888} = {3284E00C-F22A-428F-BEDA-41D3A2F6F941}
+		{4640E58A-8206-48A0-A16C-C5C9AFDF03B1} = {0CF7D2ED-0888-4293-9CD5-DA0128458656}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E714D67F-B0A9-48A2-B752-D678F2ED1F53}

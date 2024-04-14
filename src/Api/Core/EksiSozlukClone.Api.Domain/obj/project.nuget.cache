@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yQ+0pNFrc+CzE1CbZXXoqde/+J8K+fgA+hFQrJjHn/Lx3fOkSb/Zp81bXRYLn/MKDJ/0xlNeN4kR0K2bXwyVSA==",
+  "dgSpecHash": "u6c6LNKFB677iPLcN1V+FkyWKDmriFEgREdhLTEMBSLz+LlRomJ29fL8V5Xc/4FpaqcxWRyEq57iGZm623wZAA==",
   "success": true,
   "projectFilePath": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Berfin\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

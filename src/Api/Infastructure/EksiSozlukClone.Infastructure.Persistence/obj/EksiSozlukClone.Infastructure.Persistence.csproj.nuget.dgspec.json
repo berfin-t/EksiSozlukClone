@@ -4,6 +4,108 @@
     "D:\\github\\EksiSozlukClone\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\EksiSozlukClone.Infastructure.Persistence.csproj": {}
   },
   "projects": {
+    "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj",
+        "projectName": "EksiSozlukClone.Api.Application",
+        "projectPath": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj",
+        "packagesPath": "C:\\Users\\Berfin\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Berfin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj": {
+                "projectPath": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -92,6 +194,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj": {
+                "projectPath": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj"
+              },
               "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj": {
                 "projectPath": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\EksiSozlukClone.Api.Domain.csproj"
               }
@@ -132,6 +237,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -200,6 +309,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

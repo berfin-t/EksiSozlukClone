@@ -1,0 +1,13 @@
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\bin\Debug\net7.0\EksiSozlukClone.Common.deps.json
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\bin\Debug\net7.0\EksiSozlukClone.Common.dll
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\bin\Debug\net7.0\EksiSozlukClone.Common.pdb
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.AssemblyInfoInputs.cache
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.AssemblyInfo.cs
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.csproj.CoreCompileInputs.cache
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.sourcelink.json
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.dll
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\refint\EksiSozlukClone.Common.dll
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.pdb
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\ref\EksiSozlukClone.Common.dll
+D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.csproj.AssemblyReference.cache

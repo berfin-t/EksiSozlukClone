@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Api",
+    "\\src\\Api\\WebApi",
+    "\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi",
+    "\\src\\Common",
+    "\\src\\Common\\EksiSozlukClone.Common"
+  ],
+  "PreviewInSolutionExplorer": false
+}

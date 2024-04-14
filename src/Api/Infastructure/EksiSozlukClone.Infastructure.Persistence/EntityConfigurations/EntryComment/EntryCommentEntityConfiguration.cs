@@ -15,11 +15,12 @@ public class EntryCommentEntityConfiguration : BaseEntityConfiguration<Api.Domai
     {
         base.Configure(builder);
 
-        builder.ToTable("entrycomment", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("entrycomment", Context.EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
 
         builder.HasOne(x => x.CreatedBy)
             .WithMany(x => x.EntryComments)
-            .HasForeignKey(x => x.CreatedById);
+            .HasForeignKey(x => x.CreatedById)
+            .OnDelete(DeleteBehavior.Restrict);
 
         builder.HasOne(x => x.Entry)
             .WithMany(x => x.EntryComments)

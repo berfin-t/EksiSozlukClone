@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\obj\\Debug\\net7.0\\compressed\\86dbzps04m.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EksiSozlukClone.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EksiSozlukClone.WebApp.props",
+      "PackagePath": "build\\EksiSozlukClone.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EksiSozlukClone.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\EksiSozlukClone.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EksiSozlukClone.WebApp.props",
+      "PackagePath": "buildTransitive\\EksiSozlukClone.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -16,7 +16,7 @@ public class EntryFavoriteEntityConfiguration : BaseEntityConfiguration<EntryFav
     {
         base.Configure(builder);
 
-        builder.ToTable("entryfavorite", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("entryfavorite", Context.EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
 
         builder.HasOne(x => x.Entry)
             .WithMany(x => x.EntryFavorites)
@@ -24,7 +24,8 @@ public class EntryFavoriteEntityConfiguration : BaseEntityConfiguration<EntryFav
 
         builder.HasOne(x => x.CreatedUser)
             .WithMany(x => x.EntryFavorites)
-            .HasForeignKey(x => x.CreatedById);
+            .HasForeignKey(x => x.CreatedById)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }
 

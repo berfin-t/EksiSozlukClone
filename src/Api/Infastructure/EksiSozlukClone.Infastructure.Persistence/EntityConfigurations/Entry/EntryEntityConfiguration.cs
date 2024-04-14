@@ -15,7 +15,7 @@ public class EntryEntityConfiguration : BaseEntityConfiguration<Api.Domain.Model
     {
         base.Configure(builder);
 
-        builder.ToTable("entry", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("entry", Context.EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
 
         builder.HasOne(x => x.CreatedBy)
             .WithMany(x => x.Entries)

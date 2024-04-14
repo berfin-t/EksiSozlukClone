@@ -16,6 +16,6 @@ public class EmailConfirmationEntityConfiguration : BaseEntityConfiguration<Emai
     {
         base.Configure(builder);
 
-        builder.ToTable("emailconfirmation", EksiSozlukCloneContext.DEFAULT_SCHEMA);
+        builder.ToTable("emailconfirmation", EksiSozlukCloneDbContext.DEFAULT_SCHEMA);
     }
 }
