@@ -15,7 +15,7 @@ using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace EksiSozlukClone.Api.Application.Features.Commands.User;
+namespace EksiSozlukClone.Api.Application.Features.Commands.User.Login;
 
 public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginUserViewModel>
 {
@@ -45,7 +45,7 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginUs
             throw new DatabaseValidationException("Password is wrong!");
         }
 
-        if(!dbUser.EmailConfirmed)
+        if (!dbUser.EmailConfirmed)
         {
             throw new DatabaseValidationException("Email address is not confirmed yet!");
 

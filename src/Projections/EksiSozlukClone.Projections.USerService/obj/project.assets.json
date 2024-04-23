@@ -1621,9 +1621,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.USerService.csproj",
-      "projectName": "EksiSozlukClone.Projections.USerService",
-      "projectPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.USerService.csproj",
+      "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
+      "projectName": "EksiSozlukClone.Projections.UserService",
+      "projectPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
       "packagesPath": "C:\\Users\\Berfin\\.nuget\\packages\\",
       "outputPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\obj\\",
       "projectStyle": "PackageReference",
@@ -1684,7 +1684,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "lKcGrI05P7v71ddyNeetuGe4lIei+BkzpGG68EF2gEEMKW5cB2eAiSAYAjVTioO+D2GbvS8sMJcaG/6hwbjClw==",
+  "dgSpecHash": "TwNSt5M2txitW6jLJGT3STOFTBXdkWcG/gWKKbY1nZTDL31qyXv+X7knqb64mu8ybVRbETjaQRDTLjzJmxwqUQ==",
   "success": true,
   "projectFilePath": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11,3 +11,16 @@ D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\ref
 D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.pdb
 D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\ref\EksiSozlukClone.Common.dll
 D:\github\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.csproj.AssemblyReference.cache
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\bin\Debug\net7.0\EksiSozlukClone.Common.deps.json
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\bin\Debug\net7.0\EksiSozlukClone.Common.dll
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\bin\Debug\net7.0\EksiSozlukClone.Common.pdb
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.csproj.AssemblyReference.cache
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.AssemblyInfoInputs.cache
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.AssemblyInfo.cs
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.csproj.CoreCompileInputs.cache
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.sourcelink.json
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.dll
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\refint\EksiSozlukClone.Common.dll
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\EksiSozlukClone.Common.pdb
+C:\Users\Berfin\Desktop\EksiSozlukClone\src\Common\EksiSozlukClone.Common\obj\Debug\net7.0\ref\EksiSozlukClone.Common.dll

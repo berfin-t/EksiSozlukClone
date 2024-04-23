@@ -3,10 +3,14 @@
     "",
     "\\src",
     "\\src\\Api",
-    "\\src\\Api\\WebApi",
-    "\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi",
-    "\\src\\Common",
-    "\\src\\Common\\EksiSozlukClone.Common"
+    "\\src\\Api\\Core",
+    "\\src\\Api\\Core\\EksiSozlukClone.Api.Domain",
+    "\\src\\Api\\Core\\EksiSozlukClone.Api.Domain\\Models",
+    "\\src\\Api\\Infastructure",
+    "\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence",
+    "\\src\\Projections",
+    "\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService"
   ],
+  "SelectedNode": "\\EksiSozlukClone.sln",
   "PreviewInSolutionExplorer": false
 }
