@@ -17,6 +17,8 @@ public class MappingProfile : Profile
         CreateMap<User, LoginUserViewModel>().ReverseMap();
         CreateMap<CreateUserCommand,User>().ReverseMap();
         CreateMap<UpdateUserCommand, User>().ReverseMap();
+        CreateMap<CreateEntryCommand, Entry>().ReverseMap();
+        CreateMap<CreateEntryCommentCommand, EntryComment>().ReverseMap(); 
 
     }
 }
