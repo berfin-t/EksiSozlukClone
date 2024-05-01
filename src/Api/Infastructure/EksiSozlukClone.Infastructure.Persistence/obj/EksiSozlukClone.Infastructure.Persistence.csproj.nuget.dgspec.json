@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -313,6 +317,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

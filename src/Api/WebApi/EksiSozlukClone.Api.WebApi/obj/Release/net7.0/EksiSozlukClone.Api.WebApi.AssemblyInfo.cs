@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EksiSozlukClone.Api.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7e3541f8648546e5d8bacb5187499c915931080")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ea69e296df268dcc0176df88ffc804d7bdf9ea8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EksiSozlukClone.Api.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EksiSozlukClone.Api.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

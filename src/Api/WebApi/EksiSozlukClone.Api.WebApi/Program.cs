@@ -19,6 +19,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddApplicationRegistration();
 builder.Services.AddInfastructureRegistration(builder.Configuration);
 
+//AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 builder.Services.AddDbContext<EksiSozlukCloneDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("EksiSozlukCloneDbConnectionString"));

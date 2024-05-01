@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\github\\EksiSozlukClone\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\controllers\\entrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\controllers\\entrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getmainpageentries\\getmainpageentriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getmainpageentries\\getmainpageentriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\queries\\basefooterrateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\queries\\basefooterrateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getmainpageentries\\getmainpageentriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getmainpageentries\\getmainpageentriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\infastructure\\extensions\\pagingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\infastructure\\extensions\\pagingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\queries\\getentrydetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\queries\\getentrydetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\page\\basepagequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\page\\basepagequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getentries\\getentriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getentries\\getentriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\page\\pagedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\page\\pagedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\page\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\page\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getentries\\getentriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getentries\\getentriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 252,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,6 +183,188 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:37:27.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetMainPageEntriesQueryHandler.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQueryHandler.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQueryHandler.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:34:33.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntryController.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\EntryController.cs",
+              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\EntryController.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\EntryController.cs",
+              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\EntryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:17:07.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetMainPageEntriesQuery.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQuery.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQuery.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQuery.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries\\GetMainPageEntriesQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:49:05.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseFooterRateViewModel.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\BaseFooterRateViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\BaseFooterRateViewModel.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\BaseFooterRateViewModel.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\BaseFooterRateViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAawBgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:43:51.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagingExtensions.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Infastructure\\Extensions\\PagingExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Infastructure\\Extensions\\PagingExtensions.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Infastructure\\Extensions\\PagingExtensions.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Infastructure\\Extensions\\PagingExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:25:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Enums.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Enums.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T18:24:18.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetEntryDetailViewModel.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\GetEntryDetailViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\GetEntryDetailViewModel.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\GetEntryDetailViewModel.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\GetEntryDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:46:46.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasePageQuery.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Page\\BasePageQuery.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Page\\BasePageQuery.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Page\\BasePageQuery.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Page\\BasePageQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:41:53.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagedViewModel.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Page\\PagedViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Page\\PagedViewModel.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Page\\PagedViewModel.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Page\\PagedViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:26:11.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetEntriesQuery.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQuery.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQuery.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQuery.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T16:01:47.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Page.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Page\\Page.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Page\\Page.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Page\\Page.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Page\\Page.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:17:38.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetEntriesQueryHandler.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQueryHandler.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQueryHandler.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetEntries\\GetEntriesQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T16:01:51.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:57:57.448Z",
+              "EditorCaption": ""
             }
           ]
         },

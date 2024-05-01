@@ -9,4 +9,8 @@ namespace EksiSozlukClone.Api.Application.Interfaces.Repositories;
 
 public interface IEmailConfirmationRepository : IGenericRepository<EmailConfirmation>
 {
+    public class IEmailConfirmationRepository
+    {
+    }
 }
+

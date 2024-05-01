@@ -10,5 +10,6 @@ public enum VoteType
 {
     Name = -1,
     DownVote = 0,
-    UpVote = 1
+    UpVote = 1,
+    None
 }

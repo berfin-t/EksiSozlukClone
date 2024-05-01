@@ -813,6 +813,7 @@
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
           "MediatR": "12.2.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.IdentityModel.Tokens": "7.5.1",
@@ -833,6 +834,7 @@
       "EksiSozlukClone.Common/1.0.0": {
         "dependencies": {
           "MediatR": "12.2.0",
+          "Microsoft.EntityFrameworkCore": "7.0.0",
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
