@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EksiSozlukClone.Api.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ea69e296df268dcc0176df88ffc804d7bdf9ea8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a81e227356a6a4a9fd3eae8a46a4dd2abba175db")]
 [assembly: System.Reflection.AssemblyProductAttribute("EksiSozlukClone.Api.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EksiSozlukClone.Api.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
