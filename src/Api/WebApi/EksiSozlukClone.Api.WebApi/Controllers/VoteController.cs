@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EksiSozlukClone.Api.WebApi.Controllers;
 
-public class VoteController : Controller
+public class VoteController : BaseController
 {
     private readonly IMediator mediator;
 
@@ -22,7 +22,7 @@ public class VoteController : Controller
     [Route("Entry/{entryId}")]
     public async Task<IActionResult> CreateEntryVote(Guid entryId, VoteType voteType = VoteType.UpVote)
     {
-        var result = await mediator.Send(new CreateEntryVoteCommand(entryId, voteType, UserId));
+        var result = await mediator.Send(new CreateEntryVoteCommand(entryId, voteType, UserId.Value));
 
         return Ok(result);
     }

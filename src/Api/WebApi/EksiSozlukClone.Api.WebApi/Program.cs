@@ -4,6 +4,7 @@ using EksiSozlukClone.Infastructure.Persistence.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using FluentValidation.AspNetCore;
+using EksiSozlukClone.Api.WebApi.Infastructure.ActionFilters.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ builder.Services.AddControllers()
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.ConfigureAuth(builder.Configuration);
 
 builder.Services.AddApplicationRegistration();
 builder.Services.AddInfastructureRegistration(builder.Configuration);
@@ -37,6 +40,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.ConfigureExceptonHandler(app.Environment.IsDevelopment());
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

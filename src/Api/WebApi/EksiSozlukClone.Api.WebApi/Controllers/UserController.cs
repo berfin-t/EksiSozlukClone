@@ -22,7 +22,7 @@ public class UserController : BaseController
     [HttpGet("{id}")]
     public async Task<IActionResult> Get(Guid id)
     {
-        var user = await mediator.Send(new GetUserDetailQuery(id));
+        var user = await mediator.Send(new GetUserDetailQuery(id, string.Empty));
         return Ok(user);
     }
 

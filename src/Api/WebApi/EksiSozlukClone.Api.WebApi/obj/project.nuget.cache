@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pcEtS4j+48KE1LoOhNjlcAuFFPRaTgPGjyMsCpcS4zdGniz1XgqzwMFn4bmaoXrxIeMVHzTl6zIrFhkSFsWakg==",
+  "dgSpecHash": "v0NND6SV3sOHKmhMMZp/1J2cTh8EZUvHKGqcUIbw0MnEiSU+O5qIIE3ic1CD3ct9Vq9yP6MyDgOFlFSmYGxDtQ==",
   "success": true,
   "projectFilePath": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.15\\microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Berfin\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
