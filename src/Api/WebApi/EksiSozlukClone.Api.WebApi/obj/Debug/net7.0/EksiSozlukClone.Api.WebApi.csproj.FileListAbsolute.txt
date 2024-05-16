@@ -194,3 +194,4 @@ C:\Users\Berfin\Desktop\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebAp
 C:\Users\Berfin\Desktop\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi\obj\Debug\net7.0\EksiSozlukClone.Api.WebApi.pdb
 C:\Users\Berfin\Desktop\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi\obj\Debug\net7.0\EksiSozlukClone.Api.WebApi.genruntimeconfig.cache
 C:\Users\Berfin\Desktop\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi\obj\Debug\net7.0\ref\EksiSozlukClone.Api.WebApi.dll
+D:\github\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

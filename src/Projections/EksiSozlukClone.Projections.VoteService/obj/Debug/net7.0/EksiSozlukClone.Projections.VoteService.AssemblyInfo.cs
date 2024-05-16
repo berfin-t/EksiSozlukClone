@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EksiSozlukClone.Projections.VoteService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7e3541f8648546e5d8bacb5187499c915931080")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4daef762139b4c1bbc07caaea736fbefaa3718b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EksiSozlukClone.Projections.VoteService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EksiSozlukClone.Projections.VoteService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

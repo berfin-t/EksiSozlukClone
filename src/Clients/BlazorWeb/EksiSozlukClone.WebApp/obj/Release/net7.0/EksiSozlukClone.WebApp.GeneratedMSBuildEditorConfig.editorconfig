@@ -13,27 +13,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = EksiSozlukClone.WebApp
 build_property.RootNamespace = EksiSozlukClone.WebApp
-build_property.ProjectDir = C:\Users\Berfin\Desktop\EksiSozlukClone\src\Clients\BlazorWeb\EksiSozlukClone.WebApp\
+build_property.ProjectDir = D:\github\EksiSozlukClone\src\Clients\BlazorWeb\EksiSozlukClone.WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Berfin\Desktop\EksiSozlukClone\src\Clients\BlazorWeb\EksiSozlukClone.WebApp
+build_property.MSBuildProjectDirectory = D:\github\EksiSozlukClone\src\Clients\BlazorWeb\EksiSozlukClone.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Berfin/Desktop/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/App.razor]
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Berfin/Desktop/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/MainLayout.razor]
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Berfin/Desktop/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Index.razor]
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Berfin/Desktop/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/_Imports.razor]
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
