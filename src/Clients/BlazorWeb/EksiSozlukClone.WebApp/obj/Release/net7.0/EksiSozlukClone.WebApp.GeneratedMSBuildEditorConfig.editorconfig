@@ -26,16 +26,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/MainPages/EntriesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2VzXEVudHJpZXNDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Shared/NavMenu.razor]
@@ -49,3 +45,7 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1z2lvposp6

@@ -1,7 +1,7 @@
 {
   "entryAssembly": "EksiSozlukClone.WebApp",
   "resources": {
-    "hash": "sha256-24yWSEwJER/x/B658di02cFlEbPrlI84MGhpl5RtOfs=",
+    "hash": "sha256-BJjrGRjXtUzSIGABLFBmvkD40qaXGEpiERJgg+DsiZs=",
     "runtime": {
       "dotnet.7.0.18.gyj25uyjv6.js": "sha256-lsqy0PQ8nf1/0sSlLGe3Kfwi8V0Q1QzVy5+AqtJ3cfU=",
       "dotnet.timezones.blat": "sha256-aPcvvHoFVwCzeRxTOvMTcrI2l2HKJO0sjSN7IF10LUQ=",
@@ -211,12 +211,12 @@
       "mscorlib.dll": "sha256-0HcXGniS+WAs4hupbRUCnwMELwoYJxH9EvPE3IR0EqQ=",
       "netstandard.dll": "sha256-NXaYbCfP6xdQO3fJkzooXzSY4o1/iQDrumjom6Lm57g=",
       "System.Private.CoreLib.dll": "sha256-liKvB0yZJmhm3WN18TOgTvS9tWwMZzi0mlqZNDk8Pkg=",
-      "EksiSozlukClone.Common.dll": "sha256-V0Kq6t7OcA9DezxewLAc/Sl30p7p3+ABZgvCzW/xYOo=",
-      "EksiSozlukClone.WebApp.dll": "sha256-8W9vI8HpwydD40mr8Yz8X4G90opljRVeGWIlfNhRKWM="
+      "EksiSozlukClone.Common.dll": "sha256-ve5KxTJqO4Gkd5mALUpBpJwhXrOrwjZx+4HztHigH0M=",
+      "EksiSozlukClone.WebApp.dll": "sha256-UxJX7kUN5OsTP/DpM7ImZDR7JKMM0EkTB+T6orUG1t0="
     },
     "pdb": {
-      "EksiSozlukClone.Common.pdb": "sha256-eo7mwEG6019IK3LDz6SM8h6j4IAe++a9JftFX1CmLn0=",
-      "EksiSozlukClone.WebApp.pdb": "sha256-UP8gXwblk2W0SFC10GERIuy7Z4UnElyATideTajoOSY="
+      "EksiSozlukClone.Common.pdb": "sha256-lXzDFUyEj5FwugYxf6x08ITk+zhRwGoVr6TrblNU34k=",
+      "EksiSozlukClone.WebApp.pdb": "sha256-s90946xEUt0ZoaKItpKg79L0kEUVzc60I54WiKWVYl8="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

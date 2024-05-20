@@ -28,6 +28,13 @@ builder.Services.AddDbContext<EksiSozlukCloneDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("EksiSozlukCloneDbConnectionString"));
 });
 
+//Add Cors
+builder.Services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+{
+    builder.AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader();
+}));
 
 var app = builder.Build();
 
@@ -45,6 +52,7 @@ app.ConfigureExceptonHandler(app.Environment.IsDevelopment());
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseCors("MyPolicy");
 app.MapControllers();
 
 app.Run();
