@@ -6,6 +6,7 @@ using EksiSozlukClone.Api.Application.Features.Queries.GetUserEntries;
 using EksiSozlukClone.Common.Models.Queries;
 using EksiSozlukClone.Common.Models.RequestModels;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +14,7 @@ namespace EksiSozlukClone.Api.WebApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class EntryController : BaseController
 {
     private readonly IMediator mediator;

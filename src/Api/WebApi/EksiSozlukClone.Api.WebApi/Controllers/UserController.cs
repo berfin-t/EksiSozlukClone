@@ -3,6 +3,7 @@ using EksiSozlukClone.Api.Application.Features.Queries.GetUserDetail;
 using EksiSozlukClone.Common.Events.User;
 using EksiSozlukClone.Common.Models.RequestModels;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

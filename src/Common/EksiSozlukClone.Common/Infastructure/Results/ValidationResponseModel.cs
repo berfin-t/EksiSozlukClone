@@ -10,6 +10,10 @@ namespace EksiSozlukClone.Common.Infastructure.Results;
 public class ValidationResponseModel
 {
     public IEnumerable<string> Errors { get; set; }
+    public ValidationResponseModel()
+    {
+
+    }
 
     public ValidationResponseModel(IEnumerable<string> errors)
     {
@@ -20,6 +24,7 @@ public class ValidationResponseModel
     {
 
     }
+
     [JsonIgnore]
     public string FlattenErrors => Errors != null
         ? string.Join(Environment.NewLine, Errors) : string.Empty;

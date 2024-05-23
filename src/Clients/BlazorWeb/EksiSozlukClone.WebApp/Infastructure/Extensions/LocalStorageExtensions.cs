@@ -53,10 +53,7 @@ public static class LocalStorageExtensions
 
     public static string GetToken(this ISyncLocalStorageService localStorageService)
     {
-        var token = localStorageService.GetItem<string>(TokenName);
-
-        if (string.IsNullOrEmpty(token))
-            token = "deneme";
+        var token = localStorageService.GetItem<string>(TokenName);        
 
         return token;
     }
@@ -64,9 +61,6 @@ public static class LocalStorageExtensions
     public static async Task<string> GetToken(this ILocalStorageService localStorageService)
     {
         var token = await localStorageService.GetItemAsync<string>(TokenName);
-
-        if (string.IsNullOrEmpty(token))
-            token = "deneme";
 
         return token;
     }
