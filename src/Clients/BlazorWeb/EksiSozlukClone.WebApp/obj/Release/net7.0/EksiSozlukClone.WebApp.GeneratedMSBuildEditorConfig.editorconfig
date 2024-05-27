@@ -26,6 +26,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Entry/Components/EntryFooterAuthorComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cnlcQ29tcG9uZW50c1xFbnRyeUZvb3RlckF1dGhvckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Entry/Components/MainPageEntryListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cnlcQ29tcG9uZW50c1xNYWluUGFnZUVudHJ5TGlzdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Entry/Components/RateComponents/EntryFooterFavoriteComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cnlcQ29tcG9uZW50c1xSYXRlQ29tcG9uZW50c1xFbnRyeUZvb3RlckZhdm9yaXRlQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Entry/Components/RateComponents/EntryFooterRateFavoriteComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cnlcQ29tcG9uZW50c1xSYXRlQ29tcG9uZW50c1xFbnRyeUZvb3RlclJhdGVGYXZvcml0ZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Entry/EntryViewerComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cnlcRW50cnlWaWV3ZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/github/EksiSozlukClone/src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

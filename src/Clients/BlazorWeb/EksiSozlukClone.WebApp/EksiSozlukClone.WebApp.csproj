@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Pages\Components\" />
     <Folder Include="wwwroot\sample-data\" />
   </ItemGroup>
 

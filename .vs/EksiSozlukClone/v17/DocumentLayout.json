@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\github\\EksiSozlukClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\extensions\\localstorageextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\extensions\\localstorageextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\mainpageentrylistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\mainpageentrylistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\entryviewercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\entryviewercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\models\\favclickedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\models\\favclickedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\ratecomponents\\entryfooterratefavoritecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\ratecomponents\\entryfooterratefavoritecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\entryfooterauthorcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\entryfooterauthorcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\models\\voteclickedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\models\\voteclickedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\ratecomponents\\entryfooterfavoritecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\entry\\components\\ratecomponents\\entryfooterfavoritecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\mainpages\\entriescomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\pages\\mainpages\\entriescomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -139,27 +175,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LocalStorageExtensions.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Extensions\\LocalStorageExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Extensions\\LocalStorageExtensions.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Extensions\\LocalStorageExtensions.cs",
-              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Extensions\\LocalStorageExtensions.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAYwDkAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:18:56.169Z",
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\_Imports.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\_Imports.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:46:40.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAAAAAA",
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Index.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Index.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:46:05.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\App.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\App.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\App.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:45:13.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPageEntryListComponent.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\MainPageEntryListComponent.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\MainPageEntryListComponent.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\MainPageEntryListComponent.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\MainPageEntryListComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:39:11.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntryViewerComponent.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\EntryViewerComponent.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\EntryViewerComponent.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\EntryViewerComponent.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\EntryViewerComponent.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAFcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:07:47.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FavClickedEventArgs.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\FavClickedEventArgs.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\FavClickedEventArgs.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\FavClickedEventArgs.cs",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\FavClickedEventArgs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:16:44.322Z",
+              "WhenOpened": "2024-05-27T14:43:16.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntryFooterAuthorComponent.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\EntryFooterAuthorComponent.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\EntryFooterAuthorComponent.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\EntryFooterAuthorComponent.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\EntryFooterAuthorComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:02:15.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntryFooterRateFavoriteComponent.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterRateFavoriteComponent.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterRateFavoriteComponent.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterRateFavoriteComponent.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterRateFavoriteComponent.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T14:52:32.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VoteClickedEventArgs.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\VoteClickedEventArgs.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\VoteClickedEventArgs.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\VoteClickedEventArgs.cs",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Models\\VoteClickedEventArgs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:55:00.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntryFooterFavoriteComponent.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterFavoriteComponent.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterFavoriteComponent.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterFavoriteComponent.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents\\EntryFooterFavoriteComponent.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:56:03.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntriesComponent.razor",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages\\EntriesComponent.razor",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages\\EntriesComponent.razor",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages\\EntriesComponent.razor",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages\\EntriesComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:49:20.269Z",
               "EditorCaption": ""
             }
           ]
