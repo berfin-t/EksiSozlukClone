@@ -5,12 +5,11 @@
     "\\src\\Clients",
     "\\src\\Clients\\BlazorWeb",
     "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Extensions",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\wwwroot",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\wwwroot\\css",
-    "\\src\\Projections",
-    "\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService"
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages",
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry",
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components",
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents",
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages"
   ],
   "SelectedNode": "\\EksiSozlukClone.sln",
   "PreviewInSolutionExplorer": false

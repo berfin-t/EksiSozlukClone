@@ -1,7 +1,7 @@
 {
   "iisSettings": {
     "iisExpress": {
-      "applicationUrl": "http://localhost:26146",
+      "applicationUrl": "http://localhost:26146", 
       "sslPort": 44356
     }
   },
