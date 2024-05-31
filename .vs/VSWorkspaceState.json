@@ -9,7 +9,8 @@
     "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry",
     "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components",
     "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages"
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages",
+    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\UserPages"
   ],
   "SelectedNode": "\\EksiSozlukClone.sln",
   "PreviewInSolutionExplorer": false
