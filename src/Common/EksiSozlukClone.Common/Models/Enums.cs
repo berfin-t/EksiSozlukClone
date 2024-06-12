@@ -8,8 +8,7 @@ namespace EksiSozlukClone.Common.ViewModels;
 
 public enum VoteType
 {
-    Name = -1,
+    None = -1,
     DownVote = 0,
-    UpVote = 1,
-    None
+    UpVote = 1
 }

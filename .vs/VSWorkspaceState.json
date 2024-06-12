@@ -2,15 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\Api",
+    "\\src\\Api\\Infastructure",
+    "\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence",
+    "\\src\\Api\\Infastructure\\EksiSozlukClone.Infastructure.Persistence\\Repositories",
+    "\\src\\Api\\WebApi",
+    "\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi",
+    "\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Infastructure",
+    "\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Infastructure\\ActionFilters",
     "\\src\\Clients",
-    "\\src\\Clients\\BlazorWeb",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\Entry\\Components\\RateComponents",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\MainPages",
-    "\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Pages\\UserPages"
+    "\\src\\Clients\\BlazorWeb"
   ],
   "SelectedNode": "\\EksiSozlukClone.sln",
   "PreviewInSolutionExplorer": false
