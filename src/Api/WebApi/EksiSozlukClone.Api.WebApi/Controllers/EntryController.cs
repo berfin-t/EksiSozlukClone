@@ -14,7 +14,7 @@ namespace EksiSozlukClone.Api.WebApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+//[Authorize]
 public class EntryController : BaseController
 {
     private readonly IMediator mediator;

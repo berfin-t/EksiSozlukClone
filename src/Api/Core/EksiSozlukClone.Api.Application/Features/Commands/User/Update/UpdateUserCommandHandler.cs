@@ -10,10 +10,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MediatR;
 
 namespace EksiSozlukClone.Api.Application.Features.Commands.User.Update;
 
-public  class UpdateUserCommandHandler
+public  class UpdateUserCommandHandler:IRequestHandler<UpdateUserCommand, Guid>
 {
     private readonly IMapper mapper;
     private readonly IUserRepository userRepository;

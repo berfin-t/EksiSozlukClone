@@ -66,13 +66,11 @@ public class UserController : BaseController
     [Route("Confirm")]
     public async Task<IActionResult> ConfirmEmail(Guid id)
     {
-        var guid = await mediator.Send(new ConfirmEmailCommand()
-        {
-            ConfirmationId = id
-        });
+        var guid = await mediator.Send(new ConfirmEmailCommand() { ConfirmationId = id });
 
         return Ok(guid);
     }
+
 
     [HttpPost]
     [Route("ChangePassword")]
