@@ -13,6 +13,28 @@
 
 <img src="ss/backend1.jpg" width=50% />
 
+- Get api/Entry/{id} : It is used to retrieve an entry with a specific ID.
+- Get api/Entry/Comments/{id} : Used to retrieve comments of a particular entry.
+- Get /api/Entry/UserEntries : It is used to retrieve inputs from a specific user.
+- Get /api/Entry : Used to retrieve entries based on various criteria.
+- Get /api/Entry/MainPageEntries : Used to retrieve homepage entries.
+- Post /api/Entry/CreateEntry : Used to create a new entry.
+- Post /api/CreateEntryComment : Used to add a new comment to a specific entry.
+- Get /api/Search : Used to search for entries based on specific search criteria.
+
+- Get api/User/{id} : It is used to get a user with a specific id.
+- Get api/User/UserName/{userName} : It is used to retrieve a user with a specific userName.
+- Post /api/User/Login : It is used for user login.
+- Post /api/User : Used to create a new user.
+- Post /api/User/Update : Used to update an existing user.
+- Post /api/User/Confirm : Used to confirm a user's email address.
+- Post /api/User/ChangePassword : Used to change a user's password.
+
+- Post /api/Vote/Entry/{entryId} : Used to vote for a specific entry.
+- Post /api/Vote/EntryComment/{entryCommentId} : Used to vote for a specific entry comment.
+- Post /api/Vote/DeleteEntryVote/{entryId} : Used to delete a vote for a specific entry.
+- Post /api/Vote/DeleteEntryCommentVote/{entryCommentId} : Used to delete a vote for a specific entry comment.
+
 # Usage
 
 ## Prerequisites
