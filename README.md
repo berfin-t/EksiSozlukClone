@@ -29,12 +29,12 @@
 - Post /api/User/Update : Used to update an existing user.
 - Post /api/User/Confirm : Used to confirm a user's email address.
 - Post /api/User/ChangePassword : Used to change a user's password.
-</br>
+  </br>
 - Post /api/Vote/Entry/{entryId} : Used to vote for a specific entry.
 - Post /api/Vote/EntryComment/{entryCommentId} : Used to vote for a specific entry comment.
 - Post /api/Vote/DeleteEntryVote/{entryId} : Used to delete a vote for a specific entry.
 - Post /api/Vote/DeleteEntryCommentVote/{entryCommentId} : Used to delete a vote for a specific entry comment.
-
+  
 # Usage
 
 ## Prerequisites
