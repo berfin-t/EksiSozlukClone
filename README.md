@@ -21,7 +21,6 @@
 - Post /api/Entry/CreateEntry : Used to create a new entry.
 - Post /api/CreateEntryComment : Used to add a new comment to a specific entry.
 - Get /api/Search : Used to search for entries based on specific search criteria.
-</br>
 - Get /api/User/{id} : It is used to get a user with a specific id.
 - Get /api/User/UserName/{userName} : It is used to retrieve a user with a specific userName.
 - Post /api/User/Login : It is used for user login.
@@ -29,7 +28,6 @@
 - Post /api/User/Update : Used to update an existing user.
 - Post /api/User/Confirm : Used to confirm a user's email address.
 - Post /api/User/ChangePassword : Used to change a user's password.
-  </br>
 - Post /api/Vote/Entry/{entryId} : Used to vote for a specific entry.
 - Post /api/Vote/EntryComment/{entryCommentId} : Used to vote for a specific entry comment.
 - Post /api/Vote/DeleteEntryVote/{entryId} : Used to delete a vote for a specific entry.
