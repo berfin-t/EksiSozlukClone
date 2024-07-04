@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace EksiSozlukClone.Api.Application.Features.Commands.Entry.DeleteFav;
 
-public class DeleteEntryFavCommandHandler: IRequestHandler<DeleteEntryFavComand, bool>
+public class DeleteEntryFavCommandHandler: IRequestHandler<DeleteEntryFavCommand, bool>
 {
-    public async Task<bool> Handle(DeleteEntryFavComand request, CancellationToken cancellationToken)
+    public async Task<bool> Handle(DeleteEntryFavCommand request, CancellationToken cancellationToken)
     {
         QueueFactory.SendMessageToExchange(exchangeName: SozlukConstants.FavExchangeName,
             exchangeType: SozlukConstants.DefaultExchangeType,

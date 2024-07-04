@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.InteropServices;
 
 namespace EksiSozlukClone.Api.WebApi.Controllers;
 
@@ -55,6 +56,7 @@ public class UserController : BaseController
 
     [HttpPost]
     [Route("Update")]
+    [Authorize]
     public async Task<IActionResult> UpdateUser([FromBody] UpdateUserCommand command)
     {
         var guid = await mediator.Send(command);
@@ -74,6 +76,7 @@ public class UserController : BaseController
 
     [HttpPost]
     [Route("ChangePassword")]
+    [Authorize]
     public async Task<IActionResult> ChangePassword([FromBody] ChangeUserPasswordCommand command)
     {
         if(!command.UserId.HasValue)

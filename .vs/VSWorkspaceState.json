@@ -6,15 +6,12 @@
     "\\src\\Api\\Core",
     "\\src\\Api\\Core\\EksiSozlukClone.Api.Application",
     "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features",
-    "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Commands",
-    "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Commands\\Entry",
-    "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Commands\\Entry\\CreateVote",
+    "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries",
+    "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries",
     "\\src\\Common",
     "\\src\\Common\\EksiSozlukClone.Common",
-    "\\src\\Common\\EksiSozlukClone.Common\\Events",
-    "\\src\\Common\\EksiSozlukClone.Common\\Events\\User",
     "\\src\\Common\\EksiSozlukClone.Common\\Models",
-    "\\src\\Common\\EksiSozlukClone.Common\\Models\\RequestModels"
+    "\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries"
   ],
   "SelectedNode": "\\EksiSozlukClone.sln",
   "PreviewInSolutionExplorer": false

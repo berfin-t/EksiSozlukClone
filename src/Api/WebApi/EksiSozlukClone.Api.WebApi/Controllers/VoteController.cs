@@ -22,6 +22,7 @@ public class VoteController : BaseController
     [Route("Entry/{entryId}")]
     public async Task<IActionResult> CreateEntryVote(Guid entryId, VoteType voteType = VoteType.UpVote)
     {
+        //var demo = Guid.Parse("00c87eab-38ac-4bf9-b4d1-886443268eaa");
         var result = await mediator.Send(new CreateEntryVoteCommand(entryId, voteType, UserId.Value));
 
         return Ok(result);

@@ -14,7 +14,7 @@ namespace EksiSozlukClone.Api.WebApi.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-//[Authorize]
+
 public class EntryController : BaseController
 {
     private readonly IMediator mediator;
@@ -42,15 +42,17 @@ public class EntryController : BaseController
 
     [HttpGet]
     [Route("UserEntries")]
+    [Authorize]
     public async Task<IActionResult> GetUserEntries(Guid userId, string userName, int page, int pageSize)
     {
-        if (userId == Guid.Empty && string.IsNullOrEmpty(userName))
+        if(userId == Guid.Empty && string.IsNullOrEmpty(userName))
             userId = UserId.Value;
 
         var result = await mediator.Send(new GetUserEntriesQuery(userId, userName, page, pageSize));
 
         return Ok(result);
     }
+
     [HttpGet]
     public async Task<IActionResult> GetEntries([FromQuery] GetEntriesQuery query)
     {
@@ -71,6 +73,7 @@ public class EntryController : BaseController
 
     [HttpPost]
     [Route("CreateEntry")]
+    [Authorize]
     public async Task<IActionResult> CreateEntry([FromBody] CreateEntryCommand command)
     {
         if (!command.CreatedById.HasValue)
@@ -84,6 +87,7 @@ public class EntryController : BaseController
 
     [HttpPost]
     [Route("CreateEntryComment")]
+    [Authorize]
     public async Task<IActionResult> CreateEntryComment([FromBody] CreateEntryCommentCommand command)
     {
         if(!command.CreatedById.HasValue)
