@@ -22,7 +22,7 @@
 - Post /api/Entry/CreateEntry : Used to create a new entry.
 - Post /api/Entry/CreateEntryComment : Used to add a new comment to a specific entry.
 - Get /Api/Entry/Search : It is used to search for "entry" based on certain criteria.
-  ### User
+### User
 - Get /api/User/{id} : It is used to get a user with a specific id.
 - Get /api/User/UserName/{userName} : It is used to retrieve a user with a specific userName.
 - Post /api/User/Login : It is used for user login.
@@ -30,12 +30,12 @@
 - Post /api/User/Update : Used to update an existing user.
 - Post /api/User/Confirm : Used to confirm a user's email address.
 - Post /api/User/ChangePassword : Used to change a user's password.
-   ### Vote
+### Vote
 - Post /api/Vote/Entry/{entryId} : Used to vote for a specific entry.
 - Post /api/Vote/EntryComment/{entryCommentId} : Used to vote for a specific entry comment.
 - Post /api/Vote/DeleteEntryVote/{entryId} : Used to delete a vote for a specific entry.
 - Post /api/Vote/DeleteEntryCommentVote/{entryCommentId} : Used to delete a vote for a specific entry comment.
-  ### Favorite
+### Favorite
 - Post /api/Favorite/entry/{entryId} : Used to add favorites for the specified entryId.
 - Post /api/Favorite/entrycomment/{entrycommentId} : Used to add favorites for the specified entrycommentId (comment ID).
 - Post /api/Favorite/deleteentryfav/{entryId} : Used to delete the favorite for the specified entryId
