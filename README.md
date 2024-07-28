@@ -3,9 +3,12 @@
 - Onion Architecture
 - Data Seeding (Bogus)
 - Generic Repository
+- AutoMapper, FluentValidation
 - User Login (JWT Token)
 - RabbitMQ (Create-Update User)
 - MediatR Pattern
+- Blazor, HTML, CSS
+- Local Storage
  
 # Backend
 
@@ -90,3 +93,32 @@ Before you begin, ensure you have met the following requirements:
     ```bash
     dotnet run
     ```
+## Setting up the Blazor Frontend
+
+1. **Navigate to the Blazor project directory**
+
+    ```bash
+    cd EksiSozlukClone/Client
+    ```
+
+2. **Restore the frontend dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3. **Build the Blazor project**
+
+    ```bash
+    dotnet build
+    ```
+
+4. **Run the Blazor application**
+
+    ```bash
+    dotnet run
+    ```
+
+## Accessing the Application
+
+Once the application is running, you can access it by navigating to `https://localhost:5001` in your web browser. The Blazor frontend should now be up and running, communicating with the backend via API calls.
