@@ -8,11 +8,12 @@
     "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features",
     "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries",
     "\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetMainPageEntries",
+    "\\src\\Api\\WebApi",
+    "\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi",
     "\\src\\Common",
     "\\src\\Common\\EksiSozlukClone.Common",
     "\\src\\Common\\EksiSozlukClone.Common\\Models",
     "\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries"
   ],
-  "SelectedNode": "\\EksiSozlukClone.sln",
   "PreviewInSolutionExplorer": false
 }

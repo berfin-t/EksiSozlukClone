@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EksiSozlukClone.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c75b1677286e193e491b79530450b8089341895")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb4a9e3932343038b3482744f7e9cfc5a782e878")]
 [assembly: System.Reflection.AssemblyProductAttribute("EksiSozlukClone.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EksiSozlukClone.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

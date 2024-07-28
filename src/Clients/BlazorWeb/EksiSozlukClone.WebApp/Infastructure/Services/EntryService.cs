@@ -18,6 +18,7 @@ public class EntryService : IEntryService
 
     public async Task<List<GetEntriesViewModel>> GetEntires()
     {
+        //client.BaseAddress = new Uri("http://localhost:5001");
         var result = await client.GetFromJsonAsync<List<GetEntriesViewModel>>("/api/entry?todaysEnties=false&count=30");
 
         return result;
