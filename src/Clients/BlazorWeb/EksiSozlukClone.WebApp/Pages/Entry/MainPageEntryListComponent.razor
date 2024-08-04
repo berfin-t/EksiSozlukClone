@@ -13,13 +13,14 @@
                          OnPageChanged="@OnPageChanged" />
 }
 
+
 @code {
-	[Inject]
-	IEntryService entryService { get; set; }
+    [Inject]
+    IEntryService entryService { get; set; }
 
     private int currentPage = 1;
 
-	PagedViewModel<GetEntryDetailViewModel> entries;
+    PagedViewModel<GetEntryDetailViewModel> entries;
 
     public async Task OnPageChanged(int pageNumber)
     {
@@ -27,8 +28,9 @@
         entries = await entryService.GetMainPageEntries(currentPage, 5);
     }
 
-	protected override async Task OnInitializedAsync()
-	{
-		await entryService.GetMainPageEntries(currentPage, 5);
-	}
+    protected override async Task OnInitializedAsync()
+    {
+        entries = await entryService.GetMainPageEntries(currentPage, 5);
+        //TODO Pagination will be handled
+    }
 }

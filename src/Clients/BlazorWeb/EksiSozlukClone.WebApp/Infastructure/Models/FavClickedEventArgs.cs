@@ -1,7 +1,8 @@
 ﻿namespace EksiSozlukClone.WebApp.Infastructure.Models;
 
-public class FavClickedEventArgs: EventArgs
+public class FavClickedEventArgs : EventArgs
 {
-	public Guid?  EntryId { get; set; }
-	public bool IsFaved { get; set; }
+    public Guid? EntryId { get; set; }
+
+    public bool IsFaved { get; set; }
 }

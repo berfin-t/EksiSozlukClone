@@ -1,4 +1,5 @@
 ﻿@page "/createEntry"
+@using EksiSozlukClone.Common.Models.RequestModels
 
 <br />
 <br />
@@ -24,20 +25,21 @@
 
 </EditForm>
 
+
 @code {
 
-	[Inject]
-	public IEntryService entryService { get; set; }
+    [Inject]
+    public IEntryService entryService { get; set; }
 
-	[Inject]
-	public NavigationManager navigationManager { get; set; }
+    [Inject]
+    public NavigationManager navigationManager { get; set; }
 
-	private CreateEntryCommand command = new();
+    private CreateEntryCommand command = new();
 
-	public async Task CreateEntry()
-	{
-		var createdEntryId = await entryService.CreateEntry(command);
+    public async Task CreateEntry()
+    {
+        var createdEntryId = await entryService.CreateEntry(command);
 
-		navigationManager.NavigateTo($"/entry/{createdEntryId}");
-	}
+        navigationManager.NavigateTo($"/entry/{createdEntryId}");
+    }
 }

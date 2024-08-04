@@ -1,4 +1,5 @@
 ﻿using Blazored.LocalStorage;
+using EksiSozlukClone.Common.Infastructure.Exceptions;
 using EksiSozlukClone.Common.Infastructure.Results;
 using EksiSozlukClone.Common.Models.Queries;
 using EksiSozlukClone.Common.Models.RequestModels;
@@ -13,15 +14,23 @@ namespace EksiSozlukClone.WebApp.Infastructure.Services;
 
 public class IdentityService : IIdentityService
 {
-    private readonly HttpClient client;
+    private JsonSerializerOptions defaultJsonOpt => new JsonSerializerOptions()
+    {
+        PropertyNameCaseInsensitive = true
+    };
+
+    private readonly HttpClient httpClient;
     private readonly ISyncLocalStorageService syncLocalStorageService;
     private readonly AuthenticationStateProvider authenticationStateProvider;
 
-    public IdentityService(HttpClient client, ISyncLocalStorageService syncLocalStorageService)
+
+    public IdentityService(HttpClient httpClient, ISyncLocalStorageService syncLocalStorageService, AuthenticationStateProvider authenticationStateProvider)
     {
-        this.client = client;
+        this.httpClient = httpClient;
         this.syncLocalStorageService = syncLocalStorageService;
+        this.authenticationStateProvider = authenticationStateProvider;
     }
+
 
     public bool IsLoggedIn => !string.IsNullOrEmpty(GetUserToken());
 
@@ -43,32 +52,34 @@ public class IdentityService : IIdentityService
     public async Task<bool> Login(LoginUserCommand command)
     {
         string responseStr;
-        var httpResponse = await client.PostAsJsonAsync("/api/User/Login", command);
+        var httpResponse = await httpClient.PostAsJsonAsync("/api/User/Login", command);
 
         if (httpResponse != null && !httpResponse.IsSuccessStatusCode)
         {
             if (httpResponse.StatusCode == System.Net.HttpStatusCode.BadRequest)
             {
                 responseStr = await httpResponse.Content.ReadAsStringAsync();
-                var validation = JsonSerializer.Deserialize<ValidationResponseModel>(responseStr);
+                var validation = JsonSerializer.Deserialize<ValidationResponseModel>(responseStr, defaultJsonOpt);
                 responseStr = validation.FlattenErrors;
-                throw new DataMisalignedException(responseStr);
+                throw new DatabaseValidationException(responseStr);
             }
 
             return false;
         }
 
+
         responseStr = await httpResponse.Content.ReadAsStringAsync();
         var response = JsonSerializer.Deserialize<LoginUserViewModel>(responseStr);
 
-        if (!string.IsNullOrEmpty(response.Token)) //login success
+        if (!string.IsNullOrEmpty(response.Token)) // login success
         {
             syncLocalStorageService.SetToken(response.Token);
-            syncLocalStorageService.SetUserName(response.UserName);
+            syncLocalStorageService.SetUsername(response.UserName);
             syncLocalStorageService.SetUserId(response.Id);
 
             ((AuthStateProvider)authenticationStateProvider).NotifyUserLogin(response.UserName, response.Id);
-            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("bearer", response.UserName);
+
+            httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("bearer", response.Token);
 
             return true;
         }
@@ -78,11 +89,11 @@ public class IdentityService : IIdentityService
 
     public void Logout()
     {
-        syncLocalStorageService.RemoveItem(LocalStorageExtensions.TokenName);
-        syncLocalStorageService.RemoveItem(LocalStorageExtensions.UserName);
-        syncLocalStorageService.RemoveItem(LocalStorageExtensions.UserId);
+        syncLocalStorageService.RemoveItem(LocalStorageExtension.TokenName);
+        syncLocalStorageService.RemoveItem(LocalStorageExtension.UserName);
+        syncLocalStorageService.RemoveItem(LocalStorageExtension.UserId);
 
         ((AuthStateProvider)authenticationStateProvider).NotifyUserLogout();
-        client.DefaultRequestHeaders.Authorization = null;
+        httpClient.DefaultRequestHeaders.Authorization = null;
     }
 }

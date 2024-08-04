@@ -3,9 +3,9 @@ using EksiSozlukClone.WebApp.Infastructure.Extensions;
 
 namespace EksiSozlukClone.WebApp.Infastructure.Auth;
 
-public class AuthTokenHandler: DelegatingHandler
+public class AuthTokenHandler : DelegatingHandler
 {
-    public readonly ISyncLocalStorageService syncLocalStorageService;
+    private readonly ISyncLocalStorageService syncLocalStorageService;
 
     public AuthTokenHandler(ISyncLocalStorageService syncLocalStorageService)
     {

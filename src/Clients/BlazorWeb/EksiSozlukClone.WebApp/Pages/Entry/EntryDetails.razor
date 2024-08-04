@@ -1,4 +1,5 @@
 ﻿@page "/entry/{id:guid}"
+@using EksiSozlukClone.Common.Models.RequestModels
 
 @if (entry is not null)
 {
@@ -16,13 +17,14 @@
     }
 
     <br />
+    // TODO Pagination Component will be here
 
     <AuthorizeView>
         <Authorized>
             <br/>
             <br/>
 
-            <EksiSozlukClone.WebApp.Pages.EntryComment.Components.CreateEntryCommentComponent 
+            <BlazorSozluk.WebApp.Pages.EntryComment.Components.CreateEntryCommentComponent 
                 EntryId="@entry.Id"
                 EntrySubject="@entry.Subject"
                 OnClicked="@OnCommentCreate"
@@ -40,6 +42,7 @@
     [Inject]
     IEntryService entryService { get; set; }
 
+
     private GetEntryDetailViewModel entry = new();
     private PagedViewModel<GetEntryCommentsViewModel> comments = new();
     private int currentPage = 1;
@@ -47,7 +50,9 @@
     protected override async Task OnParametersSetAsync()
     {
         entry = await entryService.GetEntryDetail(id);
+
         await RefreshComments(1);
+
         currentPage = comments.PageInfo.CurrentPage;
     }
 

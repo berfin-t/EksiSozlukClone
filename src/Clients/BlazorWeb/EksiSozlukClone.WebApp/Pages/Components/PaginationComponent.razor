@@ -22,7 +22,6 @@
 }
 
 @code {
-
     [Parameter]
     public int TotalPage { get; set; }
 
@@ -36,4 +35,5 @@
     {
         await OnPageChanged.InvokeAsync(int.Parse(e.Value.ToString()));
     }
+
 }

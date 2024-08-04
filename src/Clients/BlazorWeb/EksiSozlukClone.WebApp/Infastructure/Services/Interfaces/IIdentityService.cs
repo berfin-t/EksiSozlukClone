@@ -1,15 +1,18 @@
 ﻿using EksiSozlukClone.Common.Models.RequestModels;
 
-namespace EksiSozlukClone.WebApp.Infastructure.Services.Interfaces
-{
-    public interface IIdentityService
-    {
-        bool IsLoggedIn { get; }
+namespace EksiSozlukClone.WebApp.Infastructure.Services.Interfaces;
 
-        Guid GetUserId();
-        string GetUserName();
-        string GetUserToken();
-        Task<bool> Login(LoginUserCommand command);
-        void Logout();
-    }
+public interface IIdentityService
+{
+    bool IsLoggedIn { get; }
+
+    string GetUserToken();
+
+    string GetUserName();
+
+    Guid GetUserId();
+
+    Task<bool> Login(LoginUserCommand command);
+
+    void Logout();
 }

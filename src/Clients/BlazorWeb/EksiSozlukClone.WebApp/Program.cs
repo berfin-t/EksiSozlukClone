@@ -3,12 +3,12 @@ using EksiSozlukClone.WebApp;
 using EksiSozlukClone.WebApp.Infastructure.Auth;
 using EksiSozlukClone.WebApp.Infastructure.Services;
 using EksiSozlukClone.WebApp.Infastructure.Services.Interfaces;
+using EksiSozlukClone.WebApp.Infrastructure.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.IdentityModel.Tokens;
 
-const string ClientName = "WepApiClient";
+const string ClientName = "WebApiClient";
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

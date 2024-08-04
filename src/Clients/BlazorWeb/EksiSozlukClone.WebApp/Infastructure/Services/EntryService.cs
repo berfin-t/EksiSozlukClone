@@ -4,7 +4,7 @@ using EksiSozlukClone.Common.Models.RequestModels;
 using EksiSozlukClone.WebApp.Infastructure.Services.Interfaces;
 using System.Net.Http.Json;
 
-namespace EksiSozlukClone.WebApp.Infastructure.Services;
+namespace EksiSozlukClone.WebApp.Infrastructure.Services;
 
 public class EntryService : IEntryService
 {
@@ -18,7 +18,6 @@ public class EntryService : IEntryService
 
     public async Task<List<GetEntriesViewModel>> GetEntires()
     {
-        //client.BaseAddress = new Uri("http://localhost:5001");
         var result = await client.GetFromJsonAsync<List<GetEntriesViewModel>>("/api/entry?todaysEnties=false&count=30");
 
         return result;
