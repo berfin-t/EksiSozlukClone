@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EksiSozlukClone.Projections.UserService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c75b1677286e193e491b79530450b8089341895")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b19a32cd8dd8b0cc8f729fd9b13653ab1b4d00")]
 [assembly: System.Reflection.AssemblyProductAttribute("EksiSozlukClone.Projections.UserService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EksiSozlukClone.Projections.UserService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

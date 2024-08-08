@@ -4,14 +4,14 @@
     "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj": {}
   },
   "projects": {
-    "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj": {
+    "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
-        "projectName": "EksiSozlukClone.Projections.UserService",
-        "projectPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
+        "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj",
+        "projectName": "EksiSozlukClone.Common",
+        "projectPath": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj",
         "packagesPath": "C:\\Users\\Berfin\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\obj\\",
+        "outputPath": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Berfin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,88 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
+        "projectName": "EksiSozlukClone.Projections.UserService",
+        "projectPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
+        "packagesPath": "C:\\Users\\Berfin\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Berfin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj": {
+                "projectPath": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -52,6 +134,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [

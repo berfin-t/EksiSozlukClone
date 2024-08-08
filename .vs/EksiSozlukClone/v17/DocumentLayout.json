@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "D:\\github\\EksiSozlukClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.favoriteservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.favoriteservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CDBB71-D023-4C6B-93D0-36C195377888}|src\\Projections\\EksiSozlukClone.Projections.VoteService\\EksiSozlukClone.Projections.VoteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.voteservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09CDBB71-D023-4C6B-93D0-36C195377888}|src\\Projections\\EksiSozlukClone.Projections.VoteService\\EksiSozlukClone.Projections.VoteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.voteservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|d:\\github\\eksisozlukclone\\src\\common\\eksisozlukclone.common\\models\\queries\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0953803-E5A7-4251-BA22-1EC7394B2E30}|src\\Common\\EksiSozlukClone.Common\\EksiSozlukClone.Common.csproj|solutionrelative:src\\common\\eksisozlukclone.common\\models\\queries\\userdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09CDBB71-D023-4C6B-93D0-36C195377888}|src\\Projections\\EksiSozlukClone.Projections.VoteService\\EksiSozlukClone.Projections.VoteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.voteservice\\services\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09CDBB71-D023-4C6B-93D0-36C195377888}|src\\Projections\\EksiSozlukClone.Projections.VoteService\\EksiSozlukClone.Projections.VoteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.voteservice\\services\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getuserdetail\\getuserdetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getuserdetail\\getuserdetailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.favoriteservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.favoriteservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|d:\\github\\eksisozlukclone\\src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getuserdetail\\getuserdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7155018-A7EB-43D0-8E50-E6EA119518A7}|src\\Api\\Core\\EksiSozlukClone.Api.Application\\EksiSozlukClone.Api.Application.csproj|solutionrelative:src\\api\\core\\eksisozlukclone.api.application\\features\\queries\\getuserdetail\\getuserdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.favoriteservice\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.favoriteservice\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7753B6EC-1B69-4E96-B646-BB599642BC3D}|src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.userservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7753B6EC-1B69-4E96-B646-BB599642BC3D}|src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.userservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\auth\\authstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\auth\\authstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7753B6EC-1B69-4E96-B646-BB599642BC3D}|src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7753B6EC-1B69-4E96-B646-BB599642BC3D}|src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7753B6EC-1B69-4E96-B646-BB599642BC3D}|src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7753B6EC-1B69-4E96-B646-BB599642BC3D}|src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09CDBB71-D023-4C6B-93D0-36C195377888}|src\\Projections\\EksiSozlukClone.Projections.VoteService\\EksiSozlukClone.Projections.VoteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.voteservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09CDBB71-D023-4C6B-93D0-36C195377888}|src\\Projections\\EksiSozlukClone.Projections.VoteService\\EksiSozlukClone.Projections.VoteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.voteservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|d:\\github\\eksisozlukclone\\src\\projections\\eksisozlukclone.projections.favoriteservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DFD857E0-414E-4DF2-B7D9-D99270909D92}|src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\EksiSozlukClone.Projections.FavoriteService.csproj|solutionrelative:src\\projections\\eksisozlukclone.projections.favoriteservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\infastructure\\services\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,8 +37,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 517,
-          "SelectedChildIndex": 29,
+          "DockedWidth": 364,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,132 +158,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Program.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Program.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "GetUserDetailQueryHandler.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQueryHandler.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQueryHandler.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T17:12:17.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\Worker.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.USerService\\Worker.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\Worker.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.USerService\\Worker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:59:14.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.USerService\\appsettings.json",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\appsettings.json",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.USerService\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-05T16:58:37.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.VoteService\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.VoteService\\appsettings.json",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.VoteService\\appsettings.json",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.VoteService\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-05T16:56:57.666Z",
+              "WhenOpened": "2024-08-08T17:39:07.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.VoteService\\Worker.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.VoteService\\Worker.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.VoteService\\Worker.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.VoteService\\Worker.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "UserDetailViewModel.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\UserDetailViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\UserDetailViewModel.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\UserDetailViewModel.cs",
+              "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\UserDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:48:15.222Z",
+              "WhenOpened": "2024-08-08T17:22:45.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VoteService.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.VoteService\\Services\\VoteService.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.VoteService\\Services\\VoteService.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.VoteService\\Services\\VoteService.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.VoteService\\Services\\VoteService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAEwAoAAAAAAAAA",
+              "Title": "GetUserDetailQuery.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQuery.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQuery.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQuery.cs",
+              "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:37:05.451Z",
+              "WhenOpened": "2024-08-08T17:38:58.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\appsettings.json",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\appsettings.json",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-04T21:00:55.106Z",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:38:21.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthStateProvider.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Auth\\AuthStateProvider.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Auth\\AuthStateProvider.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Auth\\AuthStateProvider.cs",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Auth\\AuthStateProvider.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:25:35.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FavoriteService.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Services\\FavoriteService.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Services\\FavoriteService.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Services\\FavoriteService.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Services\\FavoriteService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAswEsAAAAAAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\UserService.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:46:49.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Worker.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Worker.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Worker.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.FavoriteService\\Worker.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwEQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:24:32.503Z",
+              "WhenOpened": "2024-08-08T17:23:20.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "src\\Projections\\EksiSozlukClone.Projections.USerService\\Services\\UserService.cs",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\Services\\UserService.cs",
-              "RelativeToolTip": "src\\Projections\\EksiSozlukClone.Projections.USerService\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\IdentityService.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\IdentityService.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\IdentityService.cs",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\IdentityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:59:06.395Z",
+              "WhenOpened": "2024-08-08T17:23:18.053Z",
               "EditorCaption": ""
             }
           ]
@@ -315,7 +264,7 @@
           ]
         },
         {
-          "DockedWidth": 225,
+          "DockedWidth": 107,
           "SelectedChildIndex": -1,
           "Children": [
             {
