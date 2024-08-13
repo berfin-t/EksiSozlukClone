@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "eksisozlukclone.webapp",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}",
+      "serviceActions": {
+        "blazorsozluk.webapp": "StartDebugging",
+        "eksisozlukclone.api.webapi": "StartDebugging",
+        "eksisozlukclone.projections.voteservice": "StartDebugging",
+        "eksisozlukclone.projections.userservice": "StartDebugging",
+        "eksisozlukclone.projections.favoriteservice": "StartDebugging"
+      }
+    }
+  }
+}

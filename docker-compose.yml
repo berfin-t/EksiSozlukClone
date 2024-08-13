@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+
+  eksisozlukclone.api.webapi:
+    container_name: c_eksisozlukawebpi
+    image: ${DOCKER_REGISTRY-}eksisozlukcloneapiwebapi
+    build:
+      context: .
+      dockerfile: src/Api/WebApi/EksiSozlukClone.Api.WebApi/Dockerfile
+
+  eksisozlukclone.webapp:
+    container_name: c_eksisozlukwebapp
+    image: ${DOCKER_REGISTRY-}eksisozlukclonewebapp
+    build:
+      context: .
+      dockerfile: src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Dockerfile
+
+
+      
+  eksisozlukclone.projections.voteservice:
+    container_name: c_eksisozlukvoteservice
+    image: ${DOCKER_REGISTRY-}eksisozlukcloneprojectionsvoteservice
+    build:
+      context: .
+      dockerfile: src/Projections/EksiSozlukClone.Projections.VoteService/Dockerfile
+
+
+  eksisozlukclone.projections.userservice:
+    container_name: c_eksisozlukuserservice
+    image: ${DOCKER_REGISTRY-}eksisozlukcloneprojectionsuserservice
+    build:
+      context: .
+      dockerfile: src/Projections/EksiSozlukClone.Projections.UserService/Dockerfile
+
+
+  eksisozlukclone.projections.favoriteservice:
+    container_name: c_eksisozlukfavoriteservice
+    image: ${DOCKER_REGISTRY-}eksisozlukcloneprojectionsfavoriteservice
+    build:
+      context: .
+      dockerfile: src/Projections/EksiSozlukClone.Projections.FavoriteService/Dockerfile
+

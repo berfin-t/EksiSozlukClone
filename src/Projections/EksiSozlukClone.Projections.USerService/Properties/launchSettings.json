@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "EksiSozlukClone.Projections.USerService": {
+    "EksiSozlukClone.Projections.UserService": {
       "commandName": "Project",
       "environmentVariables": {
         "DOTNET_ENVIRONMENT": "Development"

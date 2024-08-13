@@ -1,5 +1,6 @@
+using EksiSozlukClone.Projections.UserService;
 using EksiSozlukClone.Projections.UserService.Services;
-using EksiSozlukClone.Projections.USerService;
+
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>

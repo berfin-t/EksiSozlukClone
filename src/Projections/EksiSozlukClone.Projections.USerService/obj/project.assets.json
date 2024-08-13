@@ -2494,11 +2494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
+      "projectUniqueName": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.UserService\\EksiSozlukClone.Projections.UserService.csproj",
       "projectName": "EksiSozlukClone.Projections.UserService",
-      "projectPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\EksiSozlukClone.Projections.UserService.csproj",
+      "projectPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.UserService\\EksiSozlukClone.Projections.UserService.csproj",
       "packagesPath": "C:\\Users\\Berfin\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.USerService\\obj\\",
+      "outputPath": "D:\\github\\EksiSozlukClone\\src\\Projections\\EksiSozlukClone.Projections.UserService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Berfin\\AppData\\Roaming\\NuGet\\NuGet.Config",

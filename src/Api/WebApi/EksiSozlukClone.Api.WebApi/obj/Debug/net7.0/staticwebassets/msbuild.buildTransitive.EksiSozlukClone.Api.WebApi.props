@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EksiSozlukClone.Api.WebApi.props" />
+</Project>

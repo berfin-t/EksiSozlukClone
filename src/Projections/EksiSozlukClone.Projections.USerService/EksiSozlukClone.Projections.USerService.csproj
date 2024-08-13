@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-EksiSozlukClone.Projections.USerService-1a978ef5-a08a-4840-bfb0-fbf02da5eed8</UserSecretsId>
+    <UserSecretsId>dotnet-EksiSozlukClone.Projections.UserService-9c9e7fda-2f72-47e2-aa09-be86dcb08c77</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>

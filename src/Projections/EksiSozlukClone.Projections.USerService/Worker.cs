@@ -3,7 +3,7 @@ using EksiSozlukClone.Common.Infastructure;
 using EksiSozlukClone.Common;
 using EksiSozlukClone.Projections.UserService.Services;
 
-namespace EksiSozlukClone.Projections.USerService;
+namespace EksiSozlukClone.Projections.UserService;
 
 public class Worker : BackgroundService
 {

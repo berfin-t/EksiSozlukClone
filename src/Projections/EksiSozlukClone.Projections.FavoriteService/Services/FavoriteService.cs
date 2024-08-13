@@ -1,10 +1,10 @@
 ﻿using Dapper;
 using EksiSozlukClone.Common.Events.Entry;
 using EksiSozlukClone.Common.Events.EntryComment;
-using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;

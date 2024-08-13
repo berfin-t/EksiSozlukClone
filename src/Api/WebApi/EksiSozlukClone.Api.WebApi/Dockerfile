@@ -9,6 +9,10 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["src/Api/WebApi/EksiSozlukClone.Api.WebApi/EksiSozlukClone.Api.WebApi.csproj", "src/Api/WebApi/EksiSozlukClone.Api.WebApi/"]
+COPY ["src/Api/Infastructure/EksiSozlukClone.Infastructure.Persistence/EksiSozlukClone.Infastructure.Persistence.csproj", "src/Api/Infastructure/EksiSozlukClone.Infastructure.Persistence/"]
+COPY ["src/Api/Core/EksiSozlukClone.Api.Application/EksiSozlukClone.Api.Application.csproj", "src/Api/Core/EksiSozlukClone.Api.Application/"]
+COPY ["src/Api/Core/EksiSozlukClone.Api.Domain/EksiSozlukClone.Api.Domain.csproj", "src/Api/Core/EksiSozlukClone.Api.Domain/"]
+COPY ["src/Common/EksiSozlukClone.Common/EksiSozlukClone.Common.csproj", "src/Common/EksiSozlukClone.Common/"]
 RUN dotnet restore "./src/Api/WebApi/EksiSozlukClone.Api.WebApi/EksiSozlukClone.Api.WebApi.csproj"
 COPY . .
 WORKDIR "/src/src/Api/WebApi/EksiSozlukClone.Api.WebApi"
