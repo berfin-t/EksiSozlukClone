@@ -1,28 +1,37 @@
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+#FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+#WORKDIR /app
+#EXPOSE 80
+#EXPOSE 443
+#
+#FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+#ARG BUILD_CONFIGURATION=Release
+#WORKDIR /src
+#COPY ["src/Api/WebApi/EksiSozlukClone.Api.WebApi/EksiSozlukClone.Api.WebApi.csproj", "src/Api/WebApi/EksiSozlukClone.Api.WebApi/"]
+#COPY ["src/Api/Infastructure/EksiSozlukClone.Infastructure.Persistence/EksiSozlukClone.Infastructure.Persistence.csproj", "src/Api/Infastructure/EksiSozlukClone.Infastructure.Persistence/"]
+#COPY ["src/Api/Core/EksiSozlukClone.Api.Application/EksiSozlukClone.Api.Application.csproj", "src/Api/Core/EksiSozlukClone.Api.Application/"]
+#COPY ["src/Api/Core/EksiSozlukClone.Api.Domain/EksiSozlukClone.Api.Domain.csproj", "src/Api/Core/EksiSozlukClone.Api.Domain/"]
+#COPY ["src/Common/EksiSozlukClone.Common/EksiSozlukClone.Common.csproj", "src/Common/EksiSozlukClone.Common/"]
+#RUN dotnet restore "./src/Api/WebApi/EksiSozlukClone.Api.WebApi/EksiSozlukClone.Api.WebApi.csproj"
+#COPY . .
+#WORKDIR "/src/src/Api/WebApi/EksiSozlukClone.Api.WebApi"
+#RUN dotnet build "./EksiSozlukClone.Api.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
+#
+#FROM build AS publish
+#ARG BUILD_CONFIGURATION=Release
+#RUN dotnet publish "./EksiSozlukClone.Api.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+#
+#FROM base AS final
+#WORKDIR /app
+#COPY --from=publish /app/publish .
+#ENTRYPOINT ["dotnet", "EksiSozlukClone.Api.WebApi.dll"]
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["src/Api/WebApi/EksiSozlukClone.Api.WebApi/EksiSozlukClone.Api.WebApi.csproj", "src/Api/WebApi/EksiSozlukClone.Api.WebApi/"]
-COPY ["src/Api/Infastructure/EksiSozlukClone.Infastructure.Persistence/EksiSozlukClone.Infastructure.Persistence.csproj", "src/Api/Infastructure/EksiSozlukClone.Infastructure.Persistence/"]
-COPY ["src/Api/Core/EksiSozlukClone.Api.Application/EksiSozlukClone.Api.Application.csproj", "src/Api/Core/EksiSozlukClone.Api.Application/"]
-COPY ["src/Api/Core/EksiSozlukClone.Api.Domain/EksiSozlukClone.Api.Domain.csproj", "src/Api/Core/EksiSozlukClone.Api.Domain/"]
-COPY ["src/Common/EksiSozlukClone.Common/EksiSozlukClone.Common.csproj", "src/Common/EksiSozlukClone.Common/"]
-RUN dotnet restore "./src/Api/WebApi/EksiSozlukClone.Api.WebApi/EksiSozlukClone.Api.WebApi.csproj"
+
+#D:\github\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 
+WORKDIR /webapi
 COPY . .
-WORKDIR "/src/src/Api/WebApi/EksiSozlukClone.Api.WebApi"
-RUN dotnet build "./EksiSozlukClone.Api.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/build
-
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./EksiSozlukClone.Api.WebApi.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "EksiSozlukClone.Api.WebApi.dll"]
+WORKDIR ./src/Api/WebApi/EksiSozlukClone.Api.WebApi/
+RUN ["dotnet","run","--launch-profile","\"http"\","--project",".\src\Api\WebApi\EksiSozlukClone.Api.WebApi\EksiSozlukClone.Api.WebApi.csproj"]     

@@ -7,6 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["src/Projections/EksiSozlukClone.Projections.VoteService/EksiSozlukClone.Projections.VoteService.csproj", "src/Projections/EksiSozlukClone.Projections.VoteService/"]
+COPY ["src/Common/EksiSozlukClone.Common/EksiSozlukClone.Common.csproj", "src/Common/EksiSozlukClone.Common/"]
 RUN dotnet restore "./src/Projections/EksiSozlukClone.Projections.VoteService/EksiSozlukClone.Projections.VoteService.csproj"
 COPY . .
 WORKDIR "/src/src/Projections/EksiSozlukClone.Projections.VoteService"
