@@ -166,8 +166,7 @@
               "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQueryHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:39:07.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:39:07.143Z"
             },
             {
               "$type": "Document",
@@ -179,8 +178,7 @@
               "RelativeToolTip": "src\\Common\\EksiSozlukClone.Common\\Models\\Queries\\UserDetailViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:22:45.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:22:45.093Z"
             },
             {
               "$type": "Document",
@@ -192,8 +190,7 @@
               "RelativeToolTip": "src\\Api\\Core\\EksiSozlukClone.Api.Application\\Features\\Queries\\GetUserDetail\\GetUserDetailQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:38:58.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:38:58.833Z"
             },
             {
               "$type": "Document",
@@ -203,7 +200,7 @@
               "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
               "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBoAAAA9AAAA",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T17:38:21.143Z",
               "EditorCaption": ""
@@ -218,8 +215,7 @@
               "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Auth\\AuthStateProvider.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAzwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:25:35.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:25:35.263Z"
             },
             {
               "$type": "Document",
@@ -231,8 +227,7 @@
               "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\UserService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:23:20.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:23:20.49Z"
             },
             {
               "$type": "Document",
@@ -244,8 +239,7 @@
               "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Infastructure\\Services\\IdentityService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:23:18.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:23:18.053Z"
             }
           ]
         },
@@ -267,10 +261,6 @@
           "DockedWidth": 107,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
