@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EksiSozlukClone.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57dce36422ab9c5aac6d9711fc843948d0208904")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81a590a4f3be52910b1f90c0398a5bd432e4dd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EksiSozlukClone.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EksiSozlukClone.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
