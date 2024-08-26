@@ -1,0 +1,115 @@
+name: dockercompose11978854826951296341
+services:
+  eksisozlukclone.api.webapi:
+    build:
+      context: D:\github\EksiSozlukClone
+      dockerfile: src/Api/WebApi/EksiSozlukClone.Api.WebApi/Dockerfile
+    container_name: c_eksisozlukawebpi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+    image: eksisozlukcloneapiwebapi
+    networks:
+      blazor_backend: null
+      blazor_frontend: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Berfin Tek\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Berfin Tek\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  eksisozlukclone.projections.favoriteservice:
+    build:
+      context: D:\github\EksiSozlukClone
+      dockerfile: src/Projections/EksiSozlukClone.Projections.FavoriteService/Dockerfile
+    container_name: c_eksisozlukfavoriteservice
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: eksisozlukcloneprojectionsfavoriteservice
+    networks:
+      blazor_backend: null
+    volumes:
+      - type: bind
+        source: C:\Users\Berfin Tek\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+  eksisozlukclone.projections.userservice:
+    build:
+      context: D:\github\EksiSozlukClone
+      dockerfile: src/Projections/EksiSozlukClone.Projections.UserService/Dockerfile
+    container_name: c_eksisozlukuserservice
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: eksisozlukcloneprojectionsuserservice
+    networks:
+      blazor_backend: null
+    volumes:
+      - type: bind
+        source: C:\Users\Berfin Tek\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+  eksisozlukclone.projections.voteservice:
+    build:
+      context: D:\github\EksiSozlukClone
+      dockerfile: src/Projections/EksiSozlukClone.Projections.VoteService/Dockerfile
+    container_name: c_eksisozlukvoteservice
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: eksisozlukcloneprojectionsvoteservice
+    networks:
+      blazor_backend: null
+    volumes:
+      - type: bind
+        source: C:\Users\Berfin Tek\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+  eksisozlukclone.webapp:
+    build:
+      context: D:\github\EksiSozlukClone
+      dockerfile: src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Dockerfile
+    container_name: c_eksisozlukwebapp
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+    image: eksisozlukclonewebapp
+    networks:
+      blazor_frontend: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Berfin Tek\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  blazor_backend:
+    name: blazor_backend
+    driver: bridge
+    external: true
+  blazor_frontend:
+    name: blazor_frontend
+    driver: bridge
+    external: true

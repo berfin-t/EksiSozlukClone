@@ -166,7 +166,10 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "EksiSozlukClone.Common.dll": {}
+          "EksiSozlukClone.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

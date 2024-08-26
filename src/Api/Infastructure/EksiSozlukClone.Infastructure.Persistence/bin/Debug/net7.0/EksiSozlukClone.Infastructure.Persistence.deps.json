@@ -807,7 +807,10 @@
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
         },
         "runtime": {
-          "EksiSozlukClone.Api.Application.dll": {}
+          "EksiSozlukClone.Api.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EksiSozlukClone.Api.Domain/1.0.0": {
@@ -815,7 +818,10 @@
           "EksiSozlukClone.Common": "1.0.0"
         },
         "runtime": {
-          "EksiSozlukClone.Api.Domain.dll": {}
+          "EksiSozlukClone.Api.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EksiSozlukClone.Common/1.0.0": {
@@ -825,7 +831,10 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "EksiSozlukClone.Common.dll": {}
+          "EksiSozlukClone.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

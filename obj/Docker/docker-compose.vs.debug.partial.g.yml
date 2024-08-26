@@ -1,12 +1,10 @@
-version: '3.4'
-
 services:
   eksisozlukclone.api.webapi:
     image: eksisozlukcloneapiwebapi:dev
     build:
       args:
+        LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
-      target: base
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "EksiSozlukClone.Api.WebApi"
@@ -15,29 +13,29 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\github\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi:/app
-      - D:\github\EksiSozlukClone:/src
-      - C:\Users\Berfin\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\Berfin\.nuget\packages\:/.nuget/packages:ro
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
-      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0:/TokenService.Proxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0:/HotReloadProxy:ro
+      - D:\github\EksiSozlukClone\src\Api\WebApi\EksiSozlukClone.Api.WebApi:/app:rw
+      - D:\github\EksiSozlukClone:/src:rw
+      - C:\Users\Berfin Tek\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Berfin Tek\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
       - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
 
-    entrypoint: tail -f /dev/null
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/EksiSozlukClone.Api.WebApi.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true
   eksisozlukclone.projections.favoriteservice:
     image: eksisozlukcloneprojectionsfavoriteservice:dev
     build:
       args:
+        LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
       target: base
       labels:
@@ -46,28 +44,28 @@ services:
     environment:
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\github\EksiSozlukClone\src\Projections\EksiSozlukClone.Projections.FavoriteService:/app
-      - D:\github\EksiSozlukClone:/src
-      - C:\Users\Berfin\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\Berfin\.nuget\packages\:/.nuget/packages:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0:/TokenService.Proxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0:/HotReloadProxy:ro
+      - D:\github\EksiSozlukClone\src\Projections\EksiSozlukClone.Projections.FavoriteService:/app:rw
+      - D:\github\EksiSozlukClone:/src:rw
+      - C:\Users\Berfin Tek\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Berfin Tek\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
       - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
 
-    entrypoint: tail -f /dev/null
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/EksiSozlukClone.Projections.FavoriteService.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true
 
   eksisozlukclone.projections.userservice:
     image: eksisozlukcloneprojectionsuserservice:dev
     build:
       args:
+        LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
       target: base
       labels:
@@ -76,28 +74,28 @@ services:
     environment:
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\github\EksiSozlukClone\src\Projections\EksiSozlukClone.Projections.UserService:/app
-      - D:\github\EksiSozlukClone:/src
-      - C:\Users\Berfin\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\Berfin\.nuget\packages\:/.nuget/packages:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0:/TokenService.Proxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0:/HotReloadProxy:ro
+      - D:\github\EksiSozlukClone\src\Projections\EksiSozlukClone.Projections.UserService:/app:rw
+      - D:\github\EksiSozlukClone:/src:rw
+      - C:\Users\Berfin Tek\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Berfin Tek\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
       - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
 
-    entrypoint: tail -f /dev/null
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/EksiSozlukClone.Projections.UserService.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true
 
   eksisozlukclone.projections.voteservice:
     image: eksisozlukcloneprojectionsvoteservice:dev
     build:
       args:
+        LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
       target: base
       labels:
@@ -106,28 +104,28 @@ services:
     environment:
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\github\EksiSozlukClone\src\Projections\EksiSozlukClone.Projections.VoteService:/app
-      - D:\github\EksiSozlukClone:/src
-      - C:\Users\Berfin\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\Berfin\.nuget\packages\:/.nuget/packages:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0:/TokenService.Proxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0:/HotReloadProxy:ro
+      - D:\github\EksiSozlukClone\src\Projections\EksiSozlukClone.Projections.VoteService:/app:rw
+      - D:\github\EksiSozlukClone:/src:rw
+      - C:\Users\Berfin Tek\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Berfin Tek\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
       - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
 
-    entrypoint: tail -f /dev/null
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net7.0/EksiSozlukClone.Projections.VoteService.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true
 
   eksisozlukclone.webapp:
     image: eksisozlukclonewebapp:dev
     build:
       args:
+        LAUNCHING_FROM_VS: true
         BUILD_CONFIGURATION: Debug
       target: build-env
       labels:
@@ -138,22 +136,21 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - D:\github\EksiSozlukClone\src\Clients\BlazorWeb\EksiSozlukClone.WebApp:/app
-      - D:\github\EksiSozlukClone:/src
-      - C:\Users\Berfin\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\Berfin\.nuget\packages\:/.nuget/packages:ro
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
-      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net7.0:/TokenService.Proxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net7.0:/HotReloadProxy:ro
+      - D:\github\EksiSozlukClone\src\Clients\BlazorWeb\EksiSozlukClone.WebApp:/app:rw
+      - D:\github\EksiSozlukClone:/src:rw
+      - C:\Users\Berfin Tek\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Berfin Tek\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\Berfin Tek\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
       - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
 
-    entrypoint: tail -f /dev/null
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true

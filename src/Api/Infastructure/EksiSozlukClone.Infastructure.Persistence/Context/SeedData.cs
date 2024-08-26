@@ -37,11 +37,11 @@ internal class SeedData
 
         var context = new EksiSozlukCloneDbContext(dbContextBuilder.Options);
 
-        if (context.Users.Any())
-        {
-            await Task.CompletedTask;
-            return;
-        }
+        //if (context.Users.Any())
+        //{
+        //    await Task.CompletedTask;
+        //    return;
+        //}
         var users = GetUsers();
         var userIds = users.Select(i => i.Id);
 
