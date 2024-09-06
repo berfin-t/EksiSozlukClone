@@ -15,7 +15,10 @@ services:
     container_name: c_postgres
     image: postgres:latest
     volumes:
-      - postgres_data:/var/lib/postgresql/data      
+      - postgres_data:/var/lib/postgresql/data
+      - type: bind
+        source: ./data/eksisozlukclone.sql
+        target: /data/eksisozlukclone.sql      
     networks:
       - blazor_backend
     environment:
@@ -25,11 +28,11 @@ services:
       PGDATA: /var/lib/postgresql/data
     ports:
       - 5433:5432
+    
 
 volumes:
   postgres_data:
 
 networks:
   blazor_backend:
-    driver: bridge
-    external: true
+    
