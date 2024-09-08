@@ -46,13 +46,6 @@
   
 # Usage
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-- .NET Core SDK installed 
-- PostgreSQL installed and running
-- An IDE or text editor such as Visual Studio or Visual Studio Code
-
 ## Setup
 1. **Clone the repository**
 
@@ -60,65 +53,19 @@ Before you begin, ensure you have met the following requirements:
     git clone https://github.com/berfin-t/EksiSozlukClone.git
     cd EksiSozlukClone
     ```
-2. **Configure PostgreSQL**
-
-    Create a PostgreSQL database and update the connection string in `appsettings.json` or your environment variables.
-
-    ```json
-    "ConnectionStrings": {
-        "DefaultConnection": "Host=localhost;Database=yourdatabase;Username=yourusername;Password=yourpassword"
-    }
-    ```
-3. **Apply Migrations**
-
-    Apply the EF Core migrations to your PostgreSQL database to set up the schema.
-
-    ```bash
-    dotnet ef database update
-    ```
 ## Running the Application
 
-1. **Restore the dependencies**
+1. **Run docker-compose file**
 
     ```bash
-    dotnet restore
+    docker-compose up -d
     ```
-2. **Build the project**
+2. **Run to use sample database**
 
     ```bash
-    dotnet build
-    ```
-3. **Run the application**
-
-    ```bash
-    dotnet run
-    ```
-## Setting up the Blazor Frontend
-
-1. **Navigate to the Blazor project directory**
-
-    ```bash
-    cd EksiSozlukClone/Client
-    ```
-
-2. **Restore the frontend dependencies**
-
-    ```bash
-    npm install
-    ```
-
-3. **Build the Blazor project**
-
-    ```bash
-    dotnet build
-    ```
-
-4. **Run the Blazor application**
-
-    ```bash
-    dotnet run
+    docker exec -ti c_postgres sh -c "pg_restore -U postgres -d eksisozlukclone < /data/eksisozlukclone.sql"
     ```
 
 ## Accessing the Application
 
-Once the application is running, you can access it by navigating to `https://localhost:5001` in your web browser. The Blazor frontend should now be up and running, communicating with the backend via API calls.
+Once the application is running, you can access it by navigating to `http://localhost:8080/swagger/index.html` in your web browser. 
