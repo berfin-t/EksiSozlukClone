@@ -68,4 +68,4 @@
 
 ## Accessing the Application
 
-Once the application is running, you can access it by navigating to `http://localhost:8080/swagger/index.html` in your web browser. 
+Once the application is running, you can access the WebApi by going to `http://localhost:8080/swagger/index.html` in your web browser. You can go to `http://localhost/` address to access the site's UI.
