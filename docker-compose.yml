@@ -5,3 +5,10 @@ services:
     build:
       context: .
       dockerfile: src/Api/WebApi/EksiSozlukClone.Api.WebApi/Dockerfile
+
+  eksisozlukclone.webapp:
+    container_name: c_eksisozlukwebapp
+    image: ${DOCKER_REGISTRY-}eksisozlukclonewebapp
+    build:
+      context: .
+      dockerfile: src/Clients/BlazorWeb/EksiSozlukClone.WebApp/Dockerfile

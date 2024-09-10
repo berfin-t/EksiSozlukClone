@@ -7,24 +7,36 @@
       "RelativeMoniker": "D:0:0:{5568F366-95EA-4C7F-90A7-6A64EB7C9270}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5568F366-95EA-4C7F-90A7-6A64EB7C9270}|docker-compose.dcproj|d:\\github\\eksisozlukclone\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5568F366-95EA-4C7F-90A7-6A64EB7C9270}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5568F366-95EA-4C7F-90A7-6A64EB7C9270}|docker-compose.dcproj|d:\\github\\eksisozlukclone\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5568F366-95EA-4C7F-90A7-6A64EB7C9270}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|d:\\github\\eksisozlukclone\\src\\clients\\blazorweb\\eksisozlukclone.webapp\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{520F8A4E-48FD-4764-98B9-5C144420A4EA}|src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\EksiSozlukClone.WebApp.csproj|solutionrelative:src\\clients\\blazorweb\\eksisozlukclone.webapp\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|solutionrelative:src\\api\\webapi\\eksisozlukclone.api.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4640E58A-8206-48A0-A16C-C5C9AFDF03B1}|src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\EksiSozlukClone.Api.WebApi.csproj|d:\\github\\eksisozlukclone\\src\\api\\webapi\\eksisozlukclone.api.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,7 +170,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Program.cs",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Program.cs",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T11:41:05.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\nginx.conf",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\nginx.conf",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\nginx.conf",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\nginx.conf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-10T11:21:26.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Dockerfile",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Dockerfile",
+              "RelativeToolTip": "src\\Clients\\BlazorWeb\\EksiSozlukClone.WebApp\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-10T11:20:06.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
@@ -166,19 +217,21 @@
               "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Program.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAASwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T18:42:44.434Z"
+              "WhenOpened": "2024-09-05T18:42:44.434Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Properties\\launchSettings.json",
               "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-05T17:03:25.226Z"
+              "WhenOpened": "2024-09-05T17:03:25.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -188,20 +241,20 @@
               "RelativeDocumentMoniker": "docker-compose.override.yml",
               "ToolTip": "D:\\github\\EksiSozlukClone\\docker-compose.override.yml",
               "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-09-05T14:35:15.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "D:\\github\\EksiSozlukClone\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "D:\\github\\EksiSozlukClone\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-09-05T14:35:13.857Z",
               "EditorCaption": ""
@@ -216,11 +269,25 @@
               "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-26T21:32:23.297Z"
+              "WhenOpened": "2024-08-26T21:32:23.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
+              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
+              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-03T15:39:18.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\appsettings.Development.json",
@@ -228,19 +295,8 @@
               "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-26T21:32:56.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
-              "ToolTip": "D:\\github\\EksiSozlukClone\\src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
-              "RelativeToolTip": "src\\Api\\WebApi\\EksiSozlukClone.Api.WebApi\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-03T15:39:18.39Z"
+              "WhenOpened": "2024-08-26T21:32:56.752Z",
+              "EditorCaption": ""
             }
           ]
         },

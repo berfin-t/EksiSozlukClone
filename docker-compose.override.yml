@@ -11,6 +11,17 @@ services:
     networks:
       - blazor_backend
 
+  eksisozlukclone.webapp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80  
+    ports:
+      - 80:80
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+    networks:
+      - blazor_frontend 
+
   c_postgres:
     container_name: c_postgres
     image: postgres:latest
@@ -35,4 +46,5 @@ volumes:
 
 networks:
   blazor_backend:
+  blazor_frontend:
     
