@@ -33,6 +33,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EksiSozlukClone.Api.WebApi"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5568F366-95EA-4C7F-90A7-6A64EB7C9270}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projections", "Projections", "{61B571A4-7ABE-4957-949F-D0A6BFB99E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Projections.FavoriteServices", "src\Projections\EksiSozlukClone.Projections.FavoriteServices\EksiSozlukClone.Projections.FavoriteServices.csproj", "{9D209579-107C-4066-8A8C-4684C85D56AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Projections.UserService", "src\Projections\EksiSozlukClone.Projections.UserService\EksiSozlukClone.Projections.UserService.csproj", "{F54793B4-4129-4AE2-BDAC-06605650CC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksiSozlukClone.Projections.VoteService", "src\Projections\EksiSozlukClone.Projections.VoteService\EksiSozlukClone.Projections.VoteService.csproj", "{4A8D4A0C-9B40-4060-B441-38FC894B33C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +75,18 @@ Global
 		{5568F366-95EA-4C7F-90A7-6A64EB7C9270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5568F366-95EA-4C7F-90A7-6A64EB7C9270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5568F366-95EA-4C7F-90A7-6A64EB7C9270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D209579-107C-4066-8A8C-4684C85D56AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D209579-107C-4066-8A8C-4684C85D56AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D209579-107C-4066-8A8C-4684C85D56AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D209579-107C-4066-8A8C-4684C85D56AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54793B4-4129-4AE2-BDAC-06605650CC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54793B4-4129-4AE2-BDAC-06605650CC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54793B4-4129-4AE2-BDAC-06605650CC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54793B4-4129-4AE2-BDAC-06605650CC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8D4A0C-9B40-4060-B441-38FC894B33C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8D4A0C-9B40-4060-B441-38FC894B33C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8D4A0C-9B40-4060-B441-38FC894B33C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8D4A0C-9B40-4060-B441-38FC894B33C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +105,10 @@ Global
 		{520F8A4E-48FD-4764-98B9-5C144420A4EA} = {C2CF1021-1372-4989-BE7A-7BA68A665C8F}
 		{F0953803-E5A7-4251-BA22-1EC7394B2E30} = {D00215AF-CE21-44A9-8B90-079DB08311C4}
 		{4640E58A-8206-48A0-A16C-C5C9AFDF03B1} = {0CF7D2ED-0888-4293-9CD5-DA0128458656}
+		{61B571A4-7ABE-4957-949F-D0A6BFB99E75} = {407EEA5C-6EEE-4551-88EC-5318BFFE82D5}
+		{9D209579-107C-4066-8A8C-4684C85D56AD} = {61B571A4-7ABE-4957-949F-D0A6BFB99E75}
+		{F54793B4-4129-4AE2-BDAC-06605650CC7A} = {61B571A4-7ABE-4957-949F-D0A6BFB99E75}
+		{4A8D4A0C-9B40-4060-B441-38FC894B33C0} = {61B571A4-7ABE-4957-949F-D0A6BFB99E75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E714D67F-B0A9-48A2-B752-D678F2ED1F53}
